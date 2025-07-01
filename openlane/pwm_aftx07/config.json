@@ -1,0 +1,32 @@
+{
+    "//": "Basics", 
+    "DESIGN_NAME": "pwm_wrapper",
+    "VERILOG_FILES": [
+        "dir::../../verilog/rtl/pwm_aftx07/converted_files/flex_counter.v",
+        "dir::../../verilog/rtl/pwm_aftx07/converted_files/pwm_wrapper.v",
+        "dir::../../verilog/rtl/pwm_aftx07/converted_files/pwmchannel.v"
+    ],
+    "CLOCK_PORT": "CLK",
+    "CLOCK_PERIOD": 25,
+
+    "//": "Add more configuration variables until design hardens with no errors",
+    "//": "Try experimenting with different variable values as well",
+
+    "//": "Core Utilization Percentage",
+    "FP_CORE_UTIL": 40,
+
+    "//": "Limits layers to use",
+    "FP_PDN_MULTILAYER": false,
+
+    "//": "Relax transition constraint",
+    "MAX_TRANSITION_CONSTRAINT": 1,
+
+    "//": "Fixed area",
+    "FP_SIZING": "absolute",
+    "DIE_AREA": [0,0,300,300],
+
+    "//": "Optimizations and antenna fixing",
+    "RUN_POST_GRT_DESIGN_REPAIR": true,
+    "RUN_HEURISTIC_DIODE_INSERTION": true,
+    "GRT_ANTENNA_ITERS": 10
+}

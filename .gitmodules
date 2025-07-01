@@ -1,0 +1,15 @@
+[submodule "verilog/rtl/intro_2_stopwatch"]
+	path = verilog/rtl/intro_2_stopwatch
+	url = git@github.com:Purdue-SoCET/intro-2-stopwatch.git
+
+[submodule "verilog/rtl/matrix_mult"]
+	path = verilog/rtl/matrix_mult
+	url = git@github.com:Purdue-SoCET/MatrixMult.git
+
+[submodule "verilog/rtl/audio_synthesizer"]
+	path = verilog/rtl/audio_synthesizer
+	url = git@github.com:Purdue-SoCET/AudioSynthesizer.git
+
+[submodule "verilog/rtl/calculator_top"]
+	path = verilog/rtl/calculator_top
+	url = git@github.com:Purdue-SoCET/CALC-Intro-2.git
