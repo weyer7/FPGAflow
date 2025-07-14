@@ -1,0 +1,93 @@
+{
+    "DESIGN_NAME": "fpga",
+    "VERILOG_FILES": [
+        "dir::../../verilog/rtl/fpga/fpga.sv"
+    ],
+    "DRT_THREADS": 20,
+    "CLOCK_PERIOD": 10000,
+    "CLOCK_PORT": "clk",
+    "ERROR_ON_KLAYOUT_DRC": false,
+    
+    "MACRO_PLACEMENT_CFG": "dir::macro.cfg",
+    "MAGIC_DEF_LABELS": 0,
+
+    "VERILOG_FILES_BLACKBOX": [
+        "dir::../../verilog/gl/fpgacell.v"
+    ],
+
+    "EXTRA_LEFS": [
+        "dir::../../lef/fpgacell.lef"
+    ],
+
+    "EXTRA_GDS_FILES": [
+        "dir::../../gds/fpgacell.gds"
+    ],
+
+    "EXTRA_LIBS": [
+        "dir::../../lib/fpgacell.lib"
+    ],
+    "EXTRA_SPEFS": [
+        "fpgacell",
+        "dir::../../spef/multicorner/fpgacell.min.spef",
+        "dir::../../spef/multicorner/fpgacell.nom.spef",
+        "dir::../../spef/multicorner/fpgacell.max.spef"
+    ],
+
+    "PL_TARGET_DENSITY": 0.79,
+    "RUN_HEURISTIC_DIODE_INSERTION": true,
+    "RUN_LINTER": false,
+    "FP_SIZING": "absolute",
+    "DIE_AREA": "0 0 495 490",
+    "VDD_NETS": "vccd1",
+    "GND_NETS": "vssd1",
+
+    "FP_PDN_MULTILAYER": true,
+    "FP_PDN_CORE_RING": 1,
+    "FP_PDN_ENABLE_RAILS": true,
+
+    "FP_PDN_HORIZONTAL_HALO": 10,
+    "FP_PDN_VERTICAL_HALO": 10,
+
+    "//": "set to false only when debugging",
+    "PDN_CHECK_NODES": true,
+    
+    "//": "PWR net, GND net, PWR pin, GND pin",
+    "PDN_MACRO_CONNECTIONS": [
+        "cell0 vccd1 vssd1 vccd1 vssd1",
+        "cell1 vccd1 vssd1 vccd1 vssd1",
+        "cell2 vccd1 vssd1 vccd1 vssd1",
+        "cell3 vccd1 vssd1 vccd1 vssd1"
+    ],
+    
+    "PDN_CONNECT_MACROS_TO_GRID": true,
+    "PDN_ENABLE_GLOBAL_CONNECTIONS": true,
+
+    "pdk::sky130*": {
+        "FP_CORE_UTIL": 10,
+        "RT_MAX_LAYER": "met4",
+        "scl::sky130_fd_sc_hd": {
+            "CLOCK_PERIOD": 10000
+        },
+        "scl::sky130_fd_sc_hdll": {
+            "CLOCK_PERIOD": 10
+        },
+        "scl::sky130_fd_sc_hs": {
+            "CLOCK_PERIOD": 8
+        },
+        "scl::sky130_fd_sc_ls": {
+            "CLOCK_PERIOD": 10,
+            "SYNTH_MAX_FANOUT": 5
+        },
+        "scl::sky130_fd_sc_ms": {
+            "CLOCK_PERIOD": 10
+        }
+    },
+    "SYNTH_USE_PG_PINS_DEFINES": "USE_POWER_PINS",
+    "pdk::gf180mcu*": {
+        "CLOCK_PERIOD": 24.0,
+        "FP_CORE_UTIL": 30,
+        "RT_MAX_LAYER": "Metal4",
+        "SYNTH_MAX_FANOUT": 4,
+        "PL_TARGET_DENSITY": 0.5
+    }
+}

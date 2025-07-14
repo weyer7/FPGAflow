@@ -1,0 +1,2708 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= max_tt_025C_1v80 Corner ===================================
+
+Startpoint: nrst (input port clocked by clk)
+Endpoint: _3298_ (recovery check against rising-edge clock clk)
+Path Group: asynchronous
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock network delay (propagated)
+                                  5.000000    5.000000 ^ input external delay
+     2    0.035779    0.165682    0.113872    5.113872 ^ nrst (in)
+                                                         nrst (net)
+                      0.165692    0.000000    5.113872 ^ input71/A (sky130_fd_sc_hd__clkbuf_1)
+     1    0.002371    0.040878    0.104170    5.218042 ^ input71/X (sky130_fd_sc_hd__clkbuf_1)
+                                                         net71 (net)
+                      0.040878    0.000159    5.218201 ^ fanout285/A (sky130_fd_sc_hd__buf_2)
+    19    0.150768    0.717862    0.567837    5.786038 ^ fanout285/X (sky130_fd_sc_hd__buf_2)
+                                                         net285 (net)
+                      0.718125    0.011556    5.797594 ^ fanout284/A (sky130_fd_sc_hd__clkbuf_2)
+    11    0.052755    0.287321    0.403470    6.201064 ^ fanout284/X (sky130_fd_sc_hd__clkbuf_2)
+                                                         net284 (net)
+                      0.287477    0.003412    6.204476 ^ fanout283/A (sky130_fd_sc_hd__clkbuf_2)
+    11    0.058783    0.318239    0.362161    6.566637 ^ fanout283/X (sky130_fd_sc_hd__clkbuf_2)
+                                                         net283 (net)
+                      0.318440    0.006628    6.573265 ^ fanout279/A (sky130_fd_sc_hd__clkbuf_4)
+    21    0.098865    0.296851    0.397414    6.970678 ^ fanout279/X (sky130_fd_sc_hd__clkbuf_4)
+                                                         net279 (net)
+                      0.298044    0.015346    6.986024 ^ _3298_/SET_B (sky130_fd_sc_hd__dfstp_1)
+                                              6.986024   data arrival time
+
+                                 25.000000   25.000000   clock clk (rise edge)
+                                  0.000000   25.000000   clock source latency
+     2    0.042917    0.196806    0.139043   25.139042 ^ clk (in)
+                                                         clk (net)
+                      0.197005    0.000000   25.139042 ^ clkbuf_0_clk/A (sky130_fd_sc_hd__clkbuf_16)
+     9    0.107467    0.122260    0.240302   25.379343 ^ clkbuf_0_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_0_clk (net)
+                      0.122928    0.007180   25.386524 ^ clkbuf_2_3__f_clk/A (sky130_fd_sc_hd__clkbuf_16)
+    17    0.104487    0.120870    0.213149   25.599672 ^ clkbuf_2_3__f_clk/X (sky130_fd_sc_hd__clkbuf_16)
+                                                         clknet_2_3__leaf_clk (net)
+                      0.122192    0.010138   25.609810 ^ clkbuf_leaf_17_clk/A (sky130_fd_sc_hd__clkbuf_8)
+     5    0.035000    0.074319    0.177966   25.787777 ^ clkbuf_leaf_17_clk/X (sky130_fd_sc_hd__clkbuf_8)
+                                                         clknet_leaf_17_clk (net)
+                      0.074480    0.002972   25.790749 ^ _3298_/CLK (sky130_fd_sc_hd__dfstp_1)
+                                 -0.250000   25.540749   clock uncertainty
+                                  0.000000   25.540749   clock reconvergence pessimism
+                                  0.121316   25.662066   library recovery time
+                                             25.662066   data required time
+---------------------------------------------------------------------------------------------
+                                             25.662066   data required time
+                                             -6.986024   data arrival time
+---------------------------------------------------------------------------------------------
+                                             18.676041   slack (MET)
+
+
+Startpoint: nrst (input port clocked by clk)
+Endpoint: CBnorth_out[0] (output port clocked by clk)
+Path Group: clk
+Path Type: max
+
+Fanout         Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------------
+                                  0.000000    0.000000   clock clk (rise edge)
+                                  0.000000    0.000000   clock network delay (propagated)
+                                  5.000000    5.000000 ^ input external delay
+     2    0.035779    0.165682    0.113872    5.113872 ^ nrst (in)
+                                                         nrst (net)
+                      0.165692    0.000000    5.113872 ^ input71/A (sky130_fd_sc_hd__clkbuf_1)
+     1    0.002371    0.040878    0.104170    5.218042 ^ input71/X (sky130_fd_sc_hd__clkbuf_1)
+                                                         net71 (net)
+                      0.040878    0.000159    5.218201 ^ fanout285/A (sky130_fd_sc_hd__buf_2)
+    19    0.150768    0.717862    0.567837    5.786038 ^ fanout285/X (sky130_fd_sc_hd__buf_2)
+                                                         net285 (net)
+                      0.717970    0.007454    5.793492 ^ fanout264/A (sky130_fd_sc_hd__buf_4)
+    21    0.104145    0.288737    0.408593    6.202085 ^ fanout264/X (sky130_fd_sc_hd__buf_4)
+                                                         net264 (net)
+                      0.290426    0.018059    6.220144 ^ fanout255/A (sky130_fd_sc_hd__clkbuf_4)
+     9    0.050223    0.158369    0.299775    6.519918 ^ fanout255/X (sky130_fd_sc_hd__clkbuf_4)
+                                                         net255 (net)
+                      0.158495    0.004100    6.524019 ^ _1666_/B (sky130_fd_sc_hd__and2b_1)
+     1    0.005690    0.065264    0.160139    6.684158 ^ _1666_/X (sky130_fd_sc_hd__and2b_1)
+                                                         _1504_ (net)
+                      0.065265    0.000314    6.684472 ^ fanout239/A (sky130_fd_sc_hd__buf_2)
+    11    0.070479    0.341088    0.321791    7.006264 ^ fanout239/X (sky130_fd_sc_hd__buf_2)
+                                                         net239 (net)
+                      0.341126    0.003036    7.009300 ^ fanout233/A (sky130_fd_sc_hd__clkbuf_4)
+    19    0.113880    0.340104    0.430560    7.439859 ^ fanout233/X (sky130_fd_sc_hd__clkbuf_4)
+                                                         net233 (net)
+                      0.341448    0.017477    7.457336 ^ fanout232/A (sky130_fd_sc_hd__buf_4)
+    21    0.106218    0.293903    0.360815    7.818151 ^ fanout232/X (sky130_fd_sc_hd__buf_4)
+                                                         net232 (net)
+                      0.294956    0.014475    7.832625 ^ _2054_/B (sky130_fd_sc_hd__and2_4)
+     4    0.026896    0.093758    0.246426    8.079051 ^ _2054_/X (sky130_fd_sc_hd__and2_4)
+                                                         _0684_ (net)
+                      0.093768    0.001032    8.080084 ^ _2060_/A1 (sky130_fd_sc_hd__a21oi_4)
+     5    0.021868    0.078194    0.083883    8.163966 v _2060_/Y (sky130_fd_sc_hd__a21oi_4)
+                                                         _0690_ (net)
+                      0.078206    0.000924    8.164890 v _2156_/A (sky130_fd_sc_hd__and2_4)
+     1    0.010559    0.037693    0.157780    8.322670 v _2156_/X (sky130_fd_sc_hd__and2_4)
+                                                         _0786_ (net)
+                      0.037711    0.000926    8.323596 v _2158_/B2 (sky130_fd_sc_hd__o221ai_2)
+     1    0.004745    0.155787    0.129829    8.453424 ^ _2158_/Y (sky130_fd_sc_hd__o221ai_2)
+                                                         _0788_ (net)
+                      0.155787    0.000401    8.453826 ^ _2172_/A1 (sky130_fd_sc_hd__a32o_2)
+     2    0.013309    0.096875    0.229679    8.683506 ^ _2172_/X (sky130_fd_sc_hd__a32o_2)
+                                                         _0802_ (net)
+                      0.096881    0.000883    8.684388 ^ _2174_/A1 (sky130_fd_sc_hd__a21oi_4)
+     3    0.026942    0.084847    0.091655    8.776043 v _2174_/Y (sky130_fd_sc_hd__a21oi_4)
+                                                         CB_1.le_outB (net)
+                      0.084987    0.002800    8.778844 v _2554_/B (sky130_fd_sc_hd__nand2_1)
+     1    0.002807    0.048101    0.078703    8.857547 ^ _2554_/Y (sky130_fd_sc_hd__nand2_1)
+                                                         _1181_ (net)
+                      0.048102    0.000201    8.857748 ^ _2555_/B1 (sky130_fd_sc_hd__o211a_1)
+     1    0.005483    0.062288    0.154429    9.012177 ^ _2555_/X (sky130_fd_sc_hd__o211a_1)
+                                                         _1182_ (net)
+                      0.062289    0.000377    9.012554 ^ _2557_/C (sky130_fd_sc_hd__or3_1)
+     1    0.005154    0.062107    0.111587    9.124142 ^ _2557_/X (sky130_fd_sc_hd__or3_1)
+                                                         _1184_ (net)
+                      0.062107    0.000195    9.124337 ^ _2558_/B1_N (sky130_fd_sc_hd__o21ba_1)
+     2    0.010617    0.069262    0.176417    9.300755 v _2558_/X (sky130_fd_sc_hd__o21ba_1)
+                                                         _1185_ (net)
+                      0.069272    0.000868    9.301622 v _2584_/B1 (sky130_fd_sc_hd__a31oi_2)
+     4    0.017628    0.282007    0.267077    9.568699 ^ _2584_/Y (sky130_fd_sc_hd__a31oi_2)
+                                                         _1211_ (net)
+                      0.282023    0.001680    9.570379 ^ _2620_/B1 (sky130_fd_sc_hd__o211a_1)
+     1    0.009868    0.095948    0.241339    9.811719 ^ _2620_/X (sky130_fd_sc_hd__o211a_1)
+                                                         _1247_ (net)
+                      0.095954    0.000838    9.812557 ^ _2621_/B1 (sky130_fd_sc_hd__a211o_1)
+     1    0.006923    0.069226    0.131049    9.943606 ^ _2621_/X (sky130_fd_sc_hd__a211o_1)
+                                                         _1248_ (net)
+                      0.069228    0.000486    9.944092 ^ _2666_/B1 (sky130_fd_sc_hd__a32o_2)
+     2    0.023888    0.149461    0.206131   10.150223 ^ _2666_/X (sky130_fd_sc_hd__a32o_2)
+                                                         _1293_ (net)
+                      0.149551    0.001988   10.152211 ^ _2668_/A1 (sky130_fd_sc_hd__o211a_4)
+     7    0.070432    0.220353    0.321585   10.473796 ^ _2668_/X (sky130_fd_sc_hd__o211a_4)
+                                                         CB_0.le_outA (net)
+                      0.220557    0.004205   10.478001 ^ fanout143/A (sky130_fd_sc_hd__buf_8)
+    17    0.077030    0.130510    0.207942   10.685943 ^ fanout143/X (sky130_fd_sc_hd__buf_8)
+                                                         net143 (net)
+                      0.130907    0.005352   10.691296 ^ _2279_/A0 (sky130_fd_sc_hd__mux2_1)
+     1    0.002912    0.044730    0.143953   10.835249 ^ _2279_/X (sky130_fd_sc_hd__mux2_1)
+                                                         _0908_ (net)
+                      0.044731    0.000209   10.835457 ^ _2280_/B (sky130_fd_sc_hd__nor2_1)
+     1    0.004881    0.043060    0.042876   10.878333 v _2280_/Y (sky130_fd_sc_hd__nor2_1)
+                                                         _0909_ (net)
+                      0.043061    0.000285   10.878618 v _2281_/B1 (sky130_fd_sc_hd__a2111oi_1)
+     2    0.010492    0.607634    0.589305   11.467923 ^ _2281_/Y (sky130_fd_sc_hd__a2111oi_1)
+                                                         _0910_ (net)
+                      0.607635    0.000776   11.468699 ^ _2311_/B1 (sky130_fd_sc_hd__a31o_1)
+     1    0.007307    0.088596    0.204468   11.673167 ^ _2311_/X (sky130_fd_sc_hd__a31o_1)
+                                                         _0940_ (net)
+                      0.088599    0.000663   11.673831 ^ _2312_/B1 (sky130_fd_sc_hd__o31a_1)
+     1    0.011912    0.133691    0.198954   11.872785 ^ _2312_/X (sky130_fd_sc_hd__o31a_1)
+                                                         _0941_ (net)
+                      0.133698    0.001136   11.873920 ^ _2321_/B1 (sky130_fd_sc_hd__a32o_1)
+     2    0.011126    0.124367    0.198986   12.072906 ^ _2321_/X (sky130_fd_sc_hd__a32o_1)
+                                                         _0950_ (net)
+                      0.124372    0.000966   12.073873 ^ _2323_/A1 (sky130_fd_sc_hd__o211a_1)
+     1    0.016920    0.151210    0.250854   12.324726 ^ _2323_/X (sky130_fd_sc_hd__o211a_1)
+                                                         CB_1.le_outA (net)
+                      0.151228    0.001679   12.326406 ^ fanout150/A (sky130_fd_sc_hd__buf_8)
+    13    0.093433    0.155745    0.204618   12.531023 ^ fanout150/X (sky130_fd_sc_hd__buf_8)
+                                                         net150 (net)
+                      0.155986    0.005096   12.536119 ^ _1655_/A (sky130_fd_sc_hd__inv_2)
+     5    0.026608    0.079157    0.101842   12.637961 v _1655_/Y (sky130_fd_sc_hd__inv_2)
+                                                         _1493_ (net)
+                      0.079236    0.001740   12.639701 v _2402_/A2 (sky130_fd_sc_hd__o211a_1)
+     1    0.003307    0.041060    0.215325   12.855026 v _2402_/X (sky130_fd_sc_hd__o211a_1)
+                                                         _1030_ (net)
+                      0.041060    0.000226   12.855251 v _2403_/D (sky130_fd_sc_hd__or4_4)
+     6    0.028692    0.124271    0.479027   13.334278 v _2403_/X (sky130_fd_sc_hd__or4_4)
+                                                         _1031_ (net)
+                      0.124305    0.001871   13.336148 v _2404_/B1 (sky130_fd_sc_hd__o21ai_4)
+     8    0.042036    0.323284    0.166424   13.502573 ^ _2404_/Y (sky130_fd_sc_hd__o21ai_4)
+                                                         _1032_ (net)
+                      0.323329    0.003046   13.505618 ^ _2437_/S (sky130_fd_sc_hd__mux2_1)
+     1    0.003023    0.046496    0.191052   13.696670 ^ _2437_/X (sky130_fd_sc_hd__mux2_1)
+                                                         _1065_ (net)
+                      0.046518    0.000226   13.696897 ^ _2474_/A1 (sky130_fd_sc_hd__o211a_1)
+     1    0.006153    0.067052    0.167200   13.864097 ^ _2474_/X (sky130_fd_sc_hd__o211a_1)
+                                                         _1102_ (net)
+                      0.067053    0.000431   13.864528 ^ _2518_/B1 (sky130_fd_sc_hd__o32a_4)
+     2    0.011523    0.053727    0.173651   14.038179 ^ _2518_/X (sky130_fd_sc_hd__o32a_4)
+                                                         _1146_ (net)
+                      0.053743    0.000862   14.039041 ^ _2520_/A1 (sky130_fd_sc_hd__o211a_4)
+     9    0.070332    0.221062    0.297784   14.336824 ^ _2520_/X (sky130_fd_sc_hd__o211a_4)
+                                                         CB_0.le_outB (net)
+                      0.221567    0.007664   14.344489 ^ _1654_/A (sky130_fd_sc_hd__inv_6)
+     6    0.033247    0.064774    0.075141   14.419629 v _1654_/Y (sky130_fd_sc_hd__inv_6)
+                                                         _1492_ (net)
+                      0.064871    0.001997   14.421626 v fanout153/A (sky130_fd_sc_hd__buf_2)
+    10    0.040539    0.100010    0.198534   14.620160 v fanout153/X (sky130_fd_sc_hd__buf_2)
+                                                         net153 (net)
+                      0.100239    0.003482   14.623641 v _1835_/A1 (sky130_fd_sc_hd__o211a_1)
+     1    0.002761    0.038426    0.235951   14.859592 v _1835_/X (sky130_fd_sc_hd__o211a_1)
+                                                         _0465_ (net)
+                      0.038426    0.000192   14.859784 v _1837_/B (sky130_fd_sc_hd__or3b_4)
+    11    0.088168    0.180493    0.508629   15.368413 v _1837_/X (sky130_fd_sc_hd__or3b_4)
+                                                         _0467_ (net)
+                      0.182381    0.014046   15.382459 v _2338_/A1 (sky130_fd_sc_hd__a211o_4)
+    11    0.106433    0.180198    0.510404   15.892862 v _2338_/X (sky130_fd_sc_hd__a211o_4)
+                                                         _0966_ (net)
+                      0.182023    0.014140   15.907002 v _2796_/A1 (sky130_fd_sc_hd__mux2_1)
+     1    0.005053    0.066151    0.356563   16.263565 v _2796_/X (sky130_fd_sc_hd__mux2_1)
+                                                         _1375_ (net)
+                      0.066151    0.000380   16.263945 v _2797_/A1 (sky130_fd_sc_hd__a21oi_2)
+     1    0.018287    0.241304    0.243073   16.507019 ^ _2797_/Y (sky130_fd_sc_hd__a21oi_2)
+                                                         net88 (net)
+                      0.241345    0.002597   16.509615 ^ output88/A (sky130_fd_sc_hd__buf_6)
+     1    0.034789    0.079331    0.176604   16.686218 ^ output88/X (sky130_fd_sc_hd__buf_6)
+                                                         CBnorth_out[0] (net)
+                      0.079376    0.001734   16.687952 ^ CBnorth_out[0] (out)
+                                             16.687952   data arrival time
+
+                                 25.000000   25.000000   clock clk (rise edge)
+                                  0.000000   25.000000   clock network delay (propagated)
+                                 -0.250000   24.750000   clock uncertainty
+                                  0.000000   24.750000   clock reconvergence pessimism
+                                 -5.000000   19.750000   output external delay
+                                             19.750000   data required time
+---------------------------------------------------------------------------------------------
+                                             19.750000   data required time
+                                            -16.687952   data arrival time
+---------------------------------------------------------------------------------------------
+                                              3.062047   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= max_tt_025C_1v80 Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= max_tt_025C_1v80 Corner ===================================
+
+max slew
+
+Pin                                        Limit        Slew       Slack
+------------------------------------------------------------------------
+ANTENNA_clone35_A2/DIODE                0.750000    0.943315   -0.193315 (VIOLATED)
+clone35/A2                              0.750000    0.943315   -0.193315 (VIOLATED)
+ANTENNA_clone9_A2/DIODE                 0.750000    0.943257   -0.193257 (VIOLATED)
+clone9/A2                               0.750000    0.943257   -0.193257 (VIOLATED)
+_1841_/A2                               0.750000    0.943018   -0.193018 (VIOLATED)
+ANTENNA__1841__A2/DIODE                 0.750000    0.943012   -0.193012 (VIOLATED)
+_2338_/A2                               0.750000    0.943007   -0.193007 (VIOLATED)
+_1838_/A2                               0.750000    0.943007   -0.193007 (VIOLATED)
+ANTENNA__1838__A2/DIODE                 0.750000    0.942960   -0.192960 (VIOLATED)
+ANTENNA__2338__A2/DIODE                 0.750000    0.942940   -0.192940 (VIOLATED)
+ANTENNA__1831__X/DIODE                  0.750000    0.942939   -0.192939 (VIOLATED)
+_1831_/X                                0.750000    0.942915   -0.192915 (VIOLATED)
+ANTENNA__2317__A1/DIODE                 0.750000    0.855454   -0.105454 (VIOLATED)
+_2274_/A1                               0.750000    0.855410   -0.105410 (VIOLATED)
+ANTENNA__2274__A1/DIODE                 0.750000    0.855407   -0.105407 (VIOLATED)
+ANTENNA_clone1_A1/DIODE                 0.750000    0.855255   -0.105255 (VIOLATED)
+_2207_/A2                               0.750000    0.855081   -0.105081 (VIOLATED)
+clone1/A1                               0.750000    0.855057   -0.105057 (VIOLATED)
+ANTENNA__2276__A1/DIODE                 0.750000    0.854967   -0.104967 (VIOLATED)
+ANTENNA__2207__A2/DIODE                 0.750000    0.854966   -0.104966 (VIOLATED)
+_2317_/A1                               0.750000    0.854879   -0.104879 (VIOLATED)
+_2276_/A1                               0.750000    0.854743   -0.104743 (VIOLATED)
+ANTENNA__2200__Y/DIODE                  0.750000    0.853852   -0.103852 (VIOLATED)
+_2200_/Y                                0.750000    0.853808   -0.103808 (VIOLATED)
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+fanout305/X                              10     33    -23 (VIOLATED)
+fanout307/X                              10     31    -21 (VIOLATED)
+fanout306/X                              10     29    -19 (VIOLATED)
+fanout309/X                              10     29    -19 (VIOLATED)
+fanout310/X                              10     25    -15 (VIOLATED)
+fanout303/X                              10     23    -13 (VIOLATED)
+clkbuf_2_0__f_clk/X                      10     21    -11 (VIOLATED)
+fanout147/X                              10     21    -11 (VIOLATED)
+fanout160/X                              10     21    -11 (VIOLATED)
+fanout219/X                              10     21    -11 (VIOLATED)
+fanout229/X                              10     21    -11 (VIOLATED)
+fanout232/X                              10     21    -11 (VIOLATED)
+fanout234/X                              10     21    -11 (VIOLATED)
+fanout263/X                              10     21    -11 (VIOLATED)
+fanout264/X                              10     21    -11 (VIOLATED)
+fanout279/X                              10     21    -11 (VIOLATED)
+clkbuf_leaf_3_clk/X                      10     20    -10 (VIOLATED)
+_1688_/X                                 10     19     -9 (VIOLATED)
+_2328_/X                                 10     19     -9 (VIOLATED)
+clkbuf_2_1__f_clk/X                      10     19     -9 (VIOLATED)
+clkbuf_2_2__f_clk/X                      10     19     -9 (VIOLATED)
+clkbuf_leaf_32_clk/X                     10     19     -9 (VIOLATED)
+fanout233/X                              10     19     -9 (VIOLATED)
+fanout285/X                              10     19     -9 (VIOLATED)
+input11/X                                10     19     -9 (VIOLATED)
+input12/X                                10     19     -9 (VIOLATED)
+input13/X                                10     19     -9 (VIOLATED)
+input15/X                                10     19     -9 (VIOLATED)
+input16/X                                10     19     -9 (VIOLATED)
+input17/X                                10     19     -9 (VIOLATED)
+input19/X                                10     19     -9 (VIOLATED)
+input2/X                                 10     19     -9 (VIOLATED)
+input20/X                                10     19     -9 (VIOLATED)
+input21/X                                10     19     -9 (VIOLATED)
+input22/X                                10     19     -9 (VIOLATED)
+input23/X                                10     19     -9 (VIOLATED)
+input24/X                                10     19     -9 (VIOLATED)
+input25/X                                10     19     -9 (VIOLATED)
+input26/X                                10     19     -9 (VIOLATED)
+input27/X                                10     19     -9 (VIOLATED)
+input28/X                                10     19     -9 (VIOLATED)
+input29/X                                10     19     -9 (VIOLATED)
+input3/X                                 10     19     -9 (VIOLATED)
+input30/X                                10     19     -9 (VIOLATED)
+input31/X                                10     19     -9 (VIOLATED)
+input4/X                                 10     19     -9 (VIOLATED)
+input5/X                                 10     19     -9 (VIOLATED)
+input6/X                                 10     19     -9 (VIOLATED)
+input7/X                                 10     19     -9 (VIOLATED)
+input8/X                                 10     19     -9 (VIOLATED)
+input9/X                                 10     19     -9 (VIOLATED)
+_1985_/X                                 10     17     -7 (VIOLATED)
+clkbuf_2_3__f_clk/X                      10     17     -7 (VIOLATED)
+fanout143/X                              10     17     -7 (VIOLATED)
+fanout274/X                              10     17     -7 (VIOLATED)
+clkbuf_leaf_24_clk/X                     10     16     -6 (VIOLATED)
+clkbuf_leaf_28_clk/X                     10     16     -6 (VIOLATED)
+clkbuf_leaf_4_clk/X                      10     16     -6 (VIOLATED)
+_1891_/Y                                 10     15     -5 (VIOLATED)
+_3324_/Q                                 10     15     -5 (VIOLATED)
+clkbuf_leaf_25_clk/X                     10     15     -5 (VIOLATED)
+clkbuf_leaf_26_clk/X                     10     15     -5 (VIOLATED)
+clkbuf_leaf_5_clk/X                      10     15     -5 (VIOLATED)
+fanout159/X                              10     15     -5 (VIOLATED)
+fanout220/X                              10     15     -5 (VIOLATED)
+fanout221/X                              10     15     -5 (VIOLATED)
+fanout302/X                              10     15     -5 (VIOLATED)
+fanout308/X                              10     15     -5 (VIOLATED)
+_3435_/Q                                 10     14     -4 (VIOLATED)
+clkbuf_leaf_13_clk/X                     10     14     -4 (VIOLATED)
+clkbuf_leaf_6_clk/X                      10     14     -4 (VIOLATED)
+clkbuf_leaf_8_clk/X                      10     14     -4 (VIOLATED)
+_3325_/Q                                 10     13     -3 (VIOLATED)
+_3371_/Q                                 10     13     -3 (VIOLATED)
+clkbuf_leaf_19_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_23_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_29_clk/X                     10     13     -3 (VIOLATED)
+clkbuf_leaf_7_clk/X                      10     13     -3 (VIOLATED)
+fanout150/X                              10     13     -3 (VIOLATED)
+fanout224/X                              10     13     -3 (VIOLATED)
+fanout228/X                              10     13     -3 (VIOLATED)
+fanout296/X                              10     13     -3 (VIOLATED)
+_1701_/X                                 10     12     -2 (VIOLATED)
+clkbuf_leaf_15_clk/X                     10     12     -2 (VIOLATED)
+clkbuf_leaf_1_clk/X                      10     12     -2 (VIOLATED)
+clkbuf_leaf_27_clk/X                     10     12     -2 (VIOLATED)
+clkbuf_leaf_30_clk/X                     10     12     -2 (VIOLATED)
+_1673_/X                                 10     11        (VIOLATED)
+_1710_/X                                 10     11        (VIOLATED)
+_1714_/X                                 10     11        (VIOLATED)
+_1728_/X                                 10     11        (VIOLATED)
+_1737_/X                                 10     11        (VIOLATED)
+_1741_/X                                 10     11        (VIOLATED)
+_1754_/X                                 10     11        (VIOLATED)
+_1763_/X                                 10     11        (VIOLATED)
+_1767_/X                                 10     11        (VIOLATED)
+_1798_/X                                 10     11        (VIOLATED)
+_1809_/X                                 10     11        (VIOLATED)
+_1815_/X                                 10     11        (VIOLATED)
+_1819_/X                                 10     11        (VIOLATED)
+_1831_/X                                 10     11        (VIOLATED)
+_1837_/X                                 10     11        (VIOLATED)
+_1841_/X                                 10     11        (VIOLATED)
+_1851_/Y                                 10     11        (VIOLATED)
+_1857_/X                                 10     11        (VIOLATED)
+_1861_/X                                 10     11        (VIOLATED)
+_1903_/X                                 10     11        (VIOLATED)
+_1909_/X                                 10     11        (VIOLATED)
+_1913_/X                                 10     11        (VIOLATED)
+_1922_/X                                 10     11        (VIOLATED)
+_1932_/X                                 10     11        (VIOLATED)
+_1934_/X                                 10     11        (VIOLATED)
+_1940_/X                                 10     11        (VIOLATED)
+_1954_/X                                 10     11        (VIOLATED)
+_1997_/X                                 10     11        (VIOLATED)
+_2003_/X                                 10     11        (VIOLATED)
+_2007_/X                                 10     11        (VIOLATED)
+_2019_/X                                 10     11        (VIOLATED)
+_2025_/X                                 10     11        (VIOLATED)
+_2029_/X                                 10     11        (VIOLATED)
+_2035_/X                                 10     11        (VIOLATED)
+_2045_/X                                 10     11        (VIOLATED)
+_2049_/X                                 10     11        (VIOLATED)
+_2200_/Y                                 10     11        (VIOLATED)
+_2331_/X                                 10     11        (VIOLATED)
+_2335_/X                                 10     11        (VIOLATED)
+_2338_/X                                 10     11        (VIOLATED)
+_2347_/X                                 10     11        (VIOLATED)
+_2350_/X                                 10     11        (VIOLATED)
+_2354_/X                                 10     11        (VIOLATED)
+_2357_/X                                 10     11        (VIOLATED)
+_2363_/X                                 10     11        (VIOLATED)
+_2366_/X                                 10     11        (VIOLATED)
+_2370_/X                                 10     11        (VIOLATED)
+_2373_/X                                 10     11        (VIOLATED)
+_2386_/X                                 10     11        (VIOLATED)
+_2390_/X                                 10     11        (VIOLATED)
+_2393_/X                                 10     11        (VIOLATED)
+_3180_/Q                                 10     11        (VIOLATED)
+_3428_/Q                                 10     11        (VIOLATED)
+clkbuf_leaf_12_clk/X                     10     11        (VIOLATED)
+clkbuf_leaf_16_clk/X                     10     11        (VIOLATED)
+fanout209/X                              10     11        (VIOLATED)
+fanout231/X                              10     11        (VIOLATED)
+fanout238/X                              10     11        (VIOLATED)
+fanout239/X                              10     11        (VIOLATED)
+fanout283/X                              10     11        (VIOLATED)
+fanout284/X                              10     11        (VIOLATED)
+fanout301/X                              10     11        (VIOLATED)
+input14/X                                10     11        (VIOLATED)
+max_cap138/X                             10     11        (VIOLATED)
+
+
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 32 unannotated drivers.
+ clkload0/Y
+ clkload1/Y
+ clkload10/Y
+ clkload11/Y
+ clkload12/Y
+ clkload13/Y
+ clkload14/Y
+ clkload15/Y
+ clkload16/Y
+ clkload17/Y
+ clkload18/Y
+ clkload19/Y
+ clkload2/Y
+ clkload20/Y
+ clkload21/Y
+ clkload22/Y
+ clkload23/Y
+ clkload24/X
+ clkload25/X
+ clkload26/Y
+ clkload27/Y
+ clkload28/Y
+ clkload29/Y
+ clkload3/Y
+ clkload30/Y
+ clkload31/Y
+ clkload4/Y
+ clkload5/Y
+ clkload6/X
+ clkload7/Y
+ clkload8/Y
+ clkload9/Y
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 24
+max fanout violation count 151
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 4 unclocked register/latch pins.
+  _3228_/CLK
+  _3246_/CLK
+  _3264_/CLK
+  _3282_/CLK
+Warning: There are 4 unconstrained endpoints.
+  _3228_/D
+  _3246_/D
+  _3264_/D
+  _3282_/D
+Warning: There are 43 combinational loops in the design.
+  _2158_/Y
+  _2172_/A1
+  _2172_/X
+  _2174_/A1
+  _2174_/Y
+  _2554_/B
+  _2554_/Y
+  _2555_/B1
+  _2555_/X
+  _2557_/C
+  _2557_/X
+  _2558_/B1_N
+  _2558_/X
+  _2584_/B1
+  _2584_/Y
+  _2620_/B1
+  _2620_/X
+  _2621_/B1
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2096_/A0
+  _2096_/X
+  _2098_/A2
+  _2098_/X
+  _2125_/B1
+  _2125_/X
+  _2158_/C1
+  | loop cut point
+  _2158_/Y
+  --------------------------------
+  _2172_/X
+  _2174_/A1
+  _2174_/Y
+  _2554_/B
+  _2554_/Y
+  _2555_/B1
+  _2555_/X
+  _2557_/C
+  _2557_/X
+  _2558_/B1_N
+  _2558_/X
+  _2584_/B1
+  _2584_/Y
+  _2620_/B1
+  _2620_/X
+  _2621_/B1
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2096_/A0
+  _2096_/X
+  _2098_/A2
+  _2098_/X
+  _2125_/B1
+  _2125_/X
+  _2162_/C1
+  _2162_/X
+  _2172_/A3
+  | loop cut point
+  _2172_/X
+  --------------------------------
+  _2172_/X
+  _2174_/A1
+  _2174_/Y
+  _2554_/B
+  _2554_/Y
+  _2555_/B1
+  _2555_/X
+  _2557_/C
+  _2557_/X
+  _2558_/B1_N
+  _2558_/X
+  _2584_/B1
+  _2584_/Y
+  _2620_/B1
+  _2620_/X
+  _2621_/B1
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2096_/A0
+  _2096_/X
+  _2098_/A2
+  _2098_/X
+  _2125_/B1
+  _2125_/X
+  _2166_/C1
+  _2166_/Y
+  _2172_/B1
+  | loop cut point
+  _2172_/X
+  --------------------------------
+  _2172_/X
+  _2174_/A1
+  _2174_/Y
+  _2554_/B
+  _2554_/Y
+  _2555_/B1
+  _2555_/X
+  _2557_/C
+  _2557_/X
+  _2558_/B1_N
+  _2558_/X
+  _2584_/B1
+  _2584_/Y
+  _2620_/B1
+  _2620_/X
+  _2621_/B1
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2096_/A0
+  _2096_/X
+  _2098_/A2
+  _2098_/X
+  _2125_/B1
+  _2125_/X
+  _2171_/A1
+  _2171_/X
+  _2172_/B2
+  | loop cut point
+  _2172_/X
+  --------------------------------
+  _1864_/X
+  _2053_/A2
+  _2053_/X
+  _2060_/A2
+  _2060_/Y
+  _2156_/A
+  _2156_/X
+  _2158_/B2
+  _2158_/Y
+  _2172_/A1
+  _2172_/X
+  _2174_/A1
+  _2174_/Y
+  _2554_/B
+  _2554_/Y
+  _2555_/B1
+  _2555_/X
+  _2557_/C
+  _2557_/X
+  _2558_/B1_N
+  _2558_/X
+  _2584_/B1
+  _2584_/Y
+  _2620_/B1
+  _2620_/X
+  _2621_/B1
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _1688_/B1
+  _1688_/X
+  _1715_/A0
+  _1715_/X
+  _1770_/A2
+  _1770_/Y
+  _1864_/C
+  | loop cut point
+  _1864_/X
+  --------------------------------
+  _2158_/Y
+  _2172_/A1
+  _2172_/X
+  _2174_/A1
+  _2174_/Y
+  _2554_/B
+  _2554_/Y
+  _2555_/B1
+  _2555_/X
+  _2557_/C
+  _2557_/X
+  _2558_/B1_N
+  _2558_/X
+  _2584_/B1
+  _2584_/Y
+  _2620_/B1
+  _2620_/X
+  _2621_/B1
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _1688_/B1
+  _1688_/X
+  _2068_/A0
+  _2068_/X
+  _2070_/A2
+  _2070_/X
+  _2073_/B1
+  _2073_/X
+  _2086_/A1
+  _2086_/Y
+  _2092_/A3
+  _2092_/Y
+  _2158_/A1
+  | loop cut point
+  _2158_/Y
+  --------------------------------
+  _2158_/Y
+  _2172_/A1
+  _2172_/X
+  _2174_/A1
+  _2174_/Y
+  _2554_/B
+  _2554_/Y
+  _2555_/B1
+  _2555_/X
+  _2557_/C
+  _2557_/X
+  _2558_/B1_N
+  _2558_/X
+  _2584_/B1
+  _2584_/Y
+  _2620_/B1
+  _2620_/X
+  _2621_/B1
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _1688_/B1
+  _1688_/X
+  _2068_/A0
+  _2068_/X
+  _2070_/A2
+  _2070_/X
+  _2073_/B1
+  _2073_/X
+  _2086_/A1
+  _2086_/Y
+  _2093_/A3
+  _2093_/X
+  _2157_/B1
+  _2157_/X
+  _2158_/B1
+  | loop cut point
+  _2158_/Y
+  --------------------------------
+  _2172_/X
+  _2174_/A1
+  _2174_/Y
+  _2554_/B
+  _2554_/Y
+  _2555_/B1
+  _2555_/X
+  _2557_/C
+  _2557_/X
+  _2558_/B1_N
+  _2558_/X
+  _2584_/B1
+  _2584_/Y
+  _2620_/B1
+  _2620_/X
+  _2621_/B1
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _1688_/B1
+  _1688_/X
+  _2136_/A2
+  _2136_/X
+  _2140_/B1
+  _2140_/X
+  _2151_/A2
+  _2151_/Y
+  _2153_/A1
+  _2153_/X
+  _2154_/B
+  _2154_/Y
+  _2172_/A2
+  | loop cut point
+  _2172_/X
+  --------------------------------
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _1688_/B1
+  _1688_/X
+  _2189_/A0
+  _2189_/X
+  _2191_/A2
+  _2191_/X
+  _2199_/A1
+  _2199_/X
+  _2200_/A1
+  _2200_/Y
+  _2207_/A2
+  _2207_/Y
+  _2239_/S
+  _2239_/X
+  _2273_/A2
+  _2273_/X
+  _2321_/B2
+  | loop cut point
+  _2321_/X
+  --------------------------------
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _1688_/B1
+  _1688_/X
+  _2189_/A0
+  _2189_/X
+  _2191_/A2
+  _2191_/X
+  _2199_/A1
+  _2199_/X
+  _2200_/A1
+  _2200_/Y
+  _2207_/A2
+  _2207_/Y
+  _2315_/A2
+  _2315_/X
+  _2316_/B2
+  _2316_/X
+  _2321_/A3
+  | loop cut point
+  _2321_/X
+  --------------------------------
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _1688_/B1
+  _1688_/X
+  _2189_/A0
+  _2189_/X
+  _2191_/A2
+  _2191_/X
+  _2199_/A1
+  _2199_/X
+  _2200_/A1
+  _2200_/Y
+  _2207_/A2
+  _2207_/Y
+  _2318_/A2
+  _2318_/X
+  _2320_/B1
+  _2320_/X
+  _2321_/A2
+  | loop cut point
+  _2321_/X
+  --------------------------------
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _1688_/B1
+  _1688_/X
+  _2189_/A0
+  _2189_/X
+  _2191_/A2
+  _2191_/X
+  _2199_/A1
+  _2199_/X
+  _2200_/A1
+  _2200_/Y
+  _2274_/A1
+  _2274_/X
+  _2275_/C1
+  _2275_/X
+  _2312_/A2
+  | loop cut point
+  _2312_/X
+  --------------------------------
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _1688_/B1
+  _1688_/X
+  _2189_/A0
+  _2189_/X
+  _2191_/A2
+  _2191_/X
+  _2199_/A1
+  _2199_/X
+  _2200_/A1
+  _2200_/Y
+  _2276_/A1
+  _2276_/X
+  _2277_/C1
+  _2277_/X
+  _2312_/A3
+  | loop cut point
+  _2312_/X
+  --------------------------------
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _1688_/B1
+  _1688_/X
+  _2264_/A0
+  _2264_/X
+  _2266_/A2
+  _2266_/Y
+  _2267_/D
+  _2267_/X
+  _2268_/A3
+  _2268_/X
+  _2270_/A3
+  _2270_/X
+  _2312_/A1
+  | loop cut point
+  _2312_/X
+  --------------------------------
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _1688_/B1
+  _1688_/X
+  _2298_/A0
+  _2298_/X
+  _2300_/A2
+  _2300_/X
+  _2307_/D
+  _2307_/X
+  _2308_/B1
+  _2308_/Y
+  _2309_/B1
+  _2309_/X
+  _2310_/A3
+  _2310_/Y
+  _2321_/A1
+  | loop cut point
+  _2321_/X
+  --------------------------------
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _1688_/B1
+  _1688_/X
+  _2298_/A0
+  _2298_/X
+  _2300_/A2
+  _2300_/X
+  _2307_/D
+  _2307_/X
+  _2308_/B1
+  _2308_/Y
+  _2309_/B1
+  _2309_/X
+  _2311_/A3
+  | loop cut point
+  _2311_/X
+  --------------------------------
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _2347_/B1
+  _2347_/X
+  _2351_/A0
+  _2351_/X
+  _2359_/A2
+  _2359_/X
+  _2360_/C
+  _2360_/X
+  _2397_/A2
+  _2397_/X
+  _2404_/A1
+  | loop cut point
+  _2404_/Y
+  --------------------------------
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _2347_/B1
+  _2347_/X
+  _2351_/A0
+  _2351_/X
+  _2359_/A2
+  _2359_/X
+  _2360_/C
+  _2360_/X
+  _2397_/A2
+  _2397_/X
+  _2472_/A1
+  _2472_/X
+  _2473_/C1
+  _2473_/X
+  _2474_/C1
+  | loop cut point
+  _2474_/X
+  --------------------------------
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _2347_/B1
+  _2347_/X
+  _2351_/A0
+  _2351_/X
+  _2359_/A2
+  _2359_/X
+  _2360_/C
+  _2360_/X
+  _2397_/A2
+  _2397_/X
+  _2475_/A1
+  _2475_/X
+  _2476_/C1
+  _2476_/X
+  _2509_/A2
+  _2509_/X
+  _2518_/B2
+  | loop cut point
+  _2518_/X
+  --------------------------------
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _2347_/B1
+  _2347_/X
+  _2351_/A0
+  _2351_/X
+  _2359_/A2
+  _2359_/X
+  _2360_/C
+  _2360_/X
+  _2397_/A2
+  _2397_/X
+  _2511_/A1
+  _2511_/X
+  _2512_/C1
+  _2512_/X
+  _2513_/B1
+  _2513_/X
+  _2518_/A2
+  | loop cut point
+  _2518_/X
+  --------------------------------
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _2347_/B1
+  _2347_/X
+  _2351_/A0
+  _2351_/X
+  _2359_/A2
+  _2359_/X
+  _2360_/C
+  _2360_/X
+  _2397_/A2
+  _2397_/X
+  _2515_/A1
+  _2515_/X
+  _2516_/C1
+  _2516_/X
+  _2517_/B1
+  _2517_/X
+  _2518_/A3
+  | loop cut point
+  _2518_/X
+  --------------------------------
+  _2584_/Y
+  _2620_/B1
+  _2620_/X
+  _2621_/B1
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _2347_/B1
+  _2347_/X
+  _2573_/A0
+  _2573_/X
+  _2575_/A2
+  _2575_/Y
+  _2582_/A2
+  _2582_/X
+  _2583_/A2
+  _2583_/X
+  _2584_/A3
+  | loop cut point
+  _2584_/Y
+  --------------------------------
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _2347_/B1
+  _2347_/X
+  _2573_/A0
+  _2573_/X
+  _2575_/A2
+  _2575_/Y
+  _2582_/A2
+  _2582_/X
+  _2583_/A2
+  _2583_/X
+  _2585_/A3
+  _2585_/X
+  _2621_/A1
+  | loop cut point
+  _2621_/X
+  --------------------------------
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _2347_/B1
+  _2347_/X
+  _2573_/A0
+  _2573_/X
+  _2575_/A2
+  _2575_/Y
+  _2582_/A2
+  _2582_/X
+  _2583_/A2
+  _2583_/X
+  _2585_/A3
+  _2585_/X
+  _2623_/B1
+  _2623_/X
+  _2657_/A2
+  _2657_/X
+  _2666_/B2
+  | loop cut point
+  _2666_/X
+  --------------------------------
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _2347_/B1
+  _2347_/X
+  _2573_/A0
+  _2573_/X
+  _2575_/A2
+  _2575_/Y
+  _2582_/A2
+  _2582_/X
+  _2583_/A2
+  _2583_/X
+  _2585_/A3
+  _2585_/X
+  _2661_/A1
+  _2661_/X
+  _2666_/A2
+  | loop cut point
+  _2666_/X
+  --------------------------------
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _2347_/B1
+  _2347_/X
+  _2573_/A0
+  _2573_/X
+  _2575_/A2
+  _2575_/Y
+  _2582_/A2
+  _2582_/X
+  _2583_/A2
+  _2583_/X
+  _2585_/A3
+  _2585_/X
+  _2665_/A1
+  _2665_/X
+  _2666_/A3
+  | loop cut point
+  _2666_/X
+  --------------------------------
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _2347_/B1
+  _2347_/X
+  _2600_/A0
+  _2600_/X
+  _2602_/A2
+  _2602_/Y
+  _2603_/D
+  _2603_/X
+  _2616_/A2
+  _2616_/X
+  _2617_/A3
+  _2617_/Y
+  _2621_/C1
+  | loop cut point
+  _2621_/X
+  --------------------------------
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  _2347_/B1
+  _2347_/X
+  _2648_/A0
+  _2648_/X
+  _2650_/A2
+  _2650_/Y
+  _2651_/D
+  _2651_/Y
+  _2653_/A3
+  _2653_/X
+  _2656_/A1
+  _2656_/Y
+  _2666_/A1
+  | loop cut point
+  _2666_/X
+  --------------------------------
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  clone18/B1
+  clone18/X
+  _2429_/A0
+  _2429_/X
+  _2431_/A2
+  _2431_/Y
+  _2432_/D
+  _2432_/X
+  _2434_/A3
+  _2434_/X
+  _2435_/A3
+  _2435_/Y
+  _2474_/A2
+  | loop cut point
+  _2474_/X
+  --------------------------------
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  clone18/B1
+  clone18/X
+  _2452_/A0
+  _2452_/X
+  _2454_/A2
+  _2454_/Y
+  _2455_/D
+  _2455_/X
+  _2468_/A1
+  _2468_/Y
+  _2471_/A1
+  _2471_/Y
+  _2474_/B1
+  | loop cut point
+  _2474_/X
+  --------------------------------
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  clone18/B1
+  clone18/X
+  _2501_/A0
+  _2501_/X
+  _2503_/A1
+  _2503_/X
+  _2504_/A1
+  _2504_/X
+  _2505_/B1
+  _2505_/X
+  _2506_/A1
+  _2506_/Y
+  _2507_/A1
+  _2507_/Y
+  _2518_/A1
+  | loop cut point
+  _2518_/X
+  --------------------------------
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  clone18/B1
+  clone18/X
+  _2523_/A0
+  _2523_/X
+  _2526_/A2
+  _2526_/X
+  _2533_/D
+  _2533_/X
+  _2546_/A1
+  _2546_/Y
+  _2553_/A1
+  _2553_/Y
+  _2586_/S
+  _2586_/X
+  _2621_/A2
+  | loop cut point
+  _2621_/X
+  --------------------------------
+  _2620_/X
+  _2621_/B1
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  clone18/B1
+  clone18/X
+  _2523_/A0
+  _2523_/X
+  _2526_/A2
+  _2526_/X
+  _2533_/D
+  _2533_/X
+  _2546_/A1
+  _2546_/Y
+  _2553_/A1
+  _2553_/Y
+  _2620_/A2
+  | loop cut point
+  _2620_/X
+  --------------------------------
+  _2620_/X
+  _2621_/B1
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1682_/A1
+  _1682_/X
+  _1683_/A1
+  _1683_/X
+  _1684_/A1
+  _1684_/X
+  clone18/B1
+  clone18/X
+  _2523_/A0
+  _2523_/X
+  _2526_/A2
+  _2526_/X
+  _2533_/D
+  _2533_/X
+  _2546_/A1
+  _2546_/Y
+  _2619_/A1
+  _2619_/X
+  _2620_/C1
+  | loop cut point
+  _2620_/X
+  --------------------------------
+  _2053_/X
+  _2060_/A2
+  _2060_/Y
+  _2156_/A
+  _2156_/X
+  _2158_/B2
+  _2158_/Y
+  _2172_/A1
+  _2172_/X
+  _2174_/A1
+  _2174_/Y
+  _2554_/B
+  _2554_/Y
+  _2555_/B1
+  _2555_/X
+  _2557_/C
+  _2557_/X
+  _2558_/B1_N
+  _2558_/X
+  _2584_/B1
+  _2584_/Y
+  _2620_/B1
+  _2620_/X
+  _2621_/B1
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  _1938_/A2
+  _1938_/X
+  _1940_/C1
+  _1940_/X
+  clone39/A2
+  clone39/X
+  _1955_/B1
+  _1955_/X
+  _2051_/A2
+  _2051_/X
+  _2052_/A2
+  _2052_/Y
+  _2053_/A1
+  | loop cut point
+  _2053_/X
+  --------------------------------
+  _1864_/X
+  _2053_/A2
+  _2053_/X
+  _2060_/A2
+  _2060_/Y
+  _2156_/A
+  _2156_/X
+  _2158_/B2
+  _2158_/Y
+  _2172_/A1
+  _2172_/X
+  _2174_/A1
+  _2174_/Y
+  _2554_/B
+  _2554_/Y
+  _2555_/B1
+  _2555_/X
+  _2557_/C
+  _2557_/X
+  _2558_/B1_N
+  _2558_/X
+  _2584_/B1
+  _2584_/Y
+  _2620_/B1
+  _2620_/X
+  _2621_/B1
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  _1654_/A
+  _1654_/Y
+  fanout152/A
+  fanout152/X
+  fanout151/A
+  fanout151/X
+  _1791_/C
+  _1791_/X
+  _1793_/A2
+  _1793_/X
+  _1794_/A
+  _1794_/X
+  clone17/A1
+  clone17/X
+  _1820_/A0
+  _1820_/X
+  _1863_/A2
+  _1863_/Y
+  _1864_/D
+  | loop cut point
+  _1864_/X
+  --------------------------------
+  _2060_/Y
+  _2156_/A
+  _2156_/X
+  _2158_/B2
+  _2158_/Y
+  _2172_/A1
+  _2172_/X
+  _2174_/A1
+  _2174_/Y
+  _2554_/B
+  _2554_/Y
+  _2555_/B1
+  _2555_/X
+  _2557_/C
+  _2557_/X
+  _2558_/B1_N
+  _2558_/X
+  _2584_/B1
+  _2584_/Y
+  _2620_/B1
+  _2620_/X
+  _2621_/B1
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  fanout155/A
+  fanout155/X
+  _2055_/A1
+  _2055_/X
+  _2059_/A2
+  _2059_/X
+  _2060_/B1
+  | loop cut point
+  _2060_/Y
+  --------------------------------
+  _2158_/Y
+  _2172_/A1
+  _2172_/X
+  _2174_/A1
+  _2174_/Y
+  _2554_/B
+  _2554_/Y
+  _2555_/B1
+  _2555_/X
+  _2557_/C
+  _2557_/X
+  _2558_/B1_N
+  _2558_/X
+  _2584_/B1
+  _2584_/Y
+  _2620_/B1
+  _2620_/X
+  _2621_/B1
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  fanout155/A
+  fanout155/X
+  _2055_/A1
+  _2055_/X
+  _2059_/A2
+  _2059_/X
+  _2061_/B1
+  _2061_/X
+  _2155_/S
+  _2155_/X
+  _2158_/A2
+  | loop cut point
+  _2158_/Y
+  --------------------------------
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  fanout155/A
+  fanout155/X
+  _2279_/A1
+  | loop cut point
+  _2279_/X
+  --------------------------------
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  fanout156/A
+  fanout156/X
+  _2399_/A1
+  _2399_/X
+  _2400_/B
+  _2400_/Y
+  _2403_/C
+  | loop cut point
+  _2403_/X
+  --------------------------------
+  _2558_/X
+  _2584_/B1
+  _2584_/Y
+  _2620_/B1
+  _2620_/X
+  _2621_/B1
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2402_/A2
+  _2402_/X
+  _2403_/D
+  _2403_/X
+  _2404_/B1
+  _2404_/Y
+  _2437_/S
+  _2437_/X
+  _2474_/A1
+  _2474_/X
+  _2518_/B1
+  _2518_/X
+  _2520_/A1
+  _2520_/X
+  fanout156/A
+  fanout156/X
+  _2556_/A1
+  _2556_/X
+  _2558_/A2
+  | loop cut point
+  _2558_/X
+  --------------------------------
+  _2555_/X
+  _2557_/C
+  _2557_/X
+  _2558_/B1_N
+  _2558_/X
+  _2584_/B1
+  _2584_/Y
+  _2620_/B1
+  _2620_/X
+  _2621_/B1
+  _2621_/X
+  _2666_/B1
+  _2666_/X
+  _2668_/A1
+  _2668_/X
+  fanout143/A
+  fanout143/X
+  _2279_/A0
+  _2279_/X
+  _2280_/B
+  _2280_/Y
+  _2281_/B1
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  _2555_/A2
+  | loop cut point
+  _2555_/X
+  --------------------------------
+  _2281_/Y
+  _2311_/B1
+  _2311_/X
+  _2312_/B1
+  _2312_/X
+  _2321_/B1
+  _2321_/X
+  _2323_/A1
+  _2323_/X
+  fanout150/A
+  fanout150/X
+  _1655_/A
+  _1655_/Y
+  fanout147/A
+  fanout147/X
+  _2278_/A0
+  _2278_/X
+  _2281_/A2
+  | loop cut point
+  _2281_/Y
+  --------------------------------

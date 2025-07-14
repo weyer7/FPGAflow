@@ -1,0 +1,57 @@
+{
+    "DESIGN_NAME": "fpgacell",
+    "VERILOG_FILES": [
+        "dir::../../verilog/rtl/fpgacell/fpga.sv",
+        "dir::../../verilog/rtl/fpgacell/fpgacell.sv",
+        "dir::../../verilog/rtl/fpgacell/LE.sv",
+        "dir::../../verilog/rtl/fpgacell/CB.sv",
+        "dir::../../verilog/rtl/fpgacell/SB.sv",
+        "dir::../../verilog/rtl/fpgacell/LEI.sv"
+    ],
+    "TOP_MODULE": "fpgacell",
+    "CLOCK_PERIOD": 25,
+    "CLOCK_PORT": "clk",
+    "FP_CORE_UTIL": 10,
+    "PL_TARGET_DENSITY": 0.74,
+    "RUN_HEURISTIC_DIODE_INSERTION": true,
+    "ROUTING_CORES": 20,
+
+    "FP_PDN_CORE_RING": 0,
+    "VDD_NETS": "vccd1",
+    "GND_NETS": "vssd1",
+
+    "//": "for custom IO placement",
+    "FP_PIN_ORDER_CFG": "dir::fpgacell_pin_placement.cfg",
+
+    "RT_MAX_LAYER": "met4",
+    "FP_SIZING": "absolute",
+    "SYNTH_STRATEGY": "AREA 0",
+    "DIE_AREA": "0 0 210 205",
+
+    "RUN_LINTER": false,
+
+    "pdk::sky130*": {
+        "scl::sky130_fd_sc_hd": {
+            "CLOCK_PERIOD": 25
+        },
+        "scl::sky130_fd_sc_hdll": {
+            "CLOCK_PERIOD": 10
+        },
+        "scl::sky130_fd_sc_hs": {
+            "CLOCK_PERIOD": 8
+        },
+        "scl::sky130_fd_sc_ls": {
+            "CLOCK_PERIOD": 10,
+            "SYNTH_MAX_FANOUT": 5
+        },
+        "scl::sky130_fd_sc_ms": {
+            "CLOCK_PERIOD": 10
+        }
+    },
+    "pdk::gf180mcu*": {
+        "CLOCK_PERIOD": 24.0,
+        "FP_CORE_UTIL": 30,
+        "SYNTH_MAX_FANOUT": 4,
+        "PL_TARGET_DENSITY": 0.5
+    }
+}

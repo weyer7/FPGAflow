@@ -127,7 +127,7 @@
     "DIODE_CELL": "sky130_fd_sc_hd__diode_2/DIODE",
     "DESIGN_DIR": "/home/ajweyer/socet_openlane_flow/openlane/alex_test",
     "PDK_ROOT": "/home/ajweyer/.volare/volare/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af",
-    "DESIGN_NAME": "fpga",
+    "DESIGN_NAME": "fpgacell",
     "PDK": "sky130A",
     "CLOCK_PERIOD": 25,
     "CLOCK_PORT": "clk",
@@ -137,8 +137,8 @@
     "DIE_AREA": [
         0,
         0,
-        1200,
-        1200
+        210,
+        210
     ],
     "EXTRA_EXCLUDED_CELLS": null,
     "MACROS": null,
@@ -175,7 +175,8 @@
         "/home/ajweyer/socet_openlane_flow/verilog/rtl/alex_test/fpgacell.sv",
         "/home/ajweyer/socet_openlane_flow/verilog/rtl/alex_test/LE.sv",
         "/home/ajweyer/socet_openlane_flow/verilog/rtl/alex_test/CB.sv",
-        "/home/ajweyer/socet_openlane_flow/verilog/rtl/alex_test/SB.sv"
+        "/home/ajweyer/socet_openlane_flow/verilog/rtl/alex_test/SB.sv",
+        "/home/ajweyer/socet_openlane_flow/verilog/rtl/alex_test/LEI.sv"
     ],
     "VERILOG_INCLUDE_DIRS": null,
     "VERILOG_POWER_DEFINE": "USE_POWER_PINS",
@@ -288,7 +289,7 @@
         0,
         0
     ],
-    "PL_TARGET_DENSITY_PCT": 60,
+    "PL_TARGET_DENSITY_PCT": 75,
     "PL_SKIP_INITIAL_PLACEMENT": false,
     "PL_WIRE_LENGTH_COEF": 0.25,
     "PL_MIN_PHI_COEFFICIENT": null,

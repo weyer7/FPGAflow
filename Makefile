@@ -6,8 +6,9 @@ export OPENLANE2_ROOT=$(HOME)/openlane2
 
 # Change PDK_ROOT if your PDK root is not the default
 export VOLARE_ROOT = $(HOME)/.volare/volare
+export CIEL_ROOT = $(HOME)/.ciel/ciel
 export PDK_VERSION = 0fe599b2afb6708d281543108caf8310912f54af
-export PDK_ROOT = $(VOLARE_ROOT)/sky130/versions/$(PDK_VERSION)
+export PDK_ROOT = $(CIEL_ROOT)/sky130/versions/$(PDK_VERSION)
 export PDK = sky130A
 export PDK_PATH = $(PDK_ROOT)/$(PDK)
 
