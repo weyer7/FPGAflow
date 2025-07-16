@@ -139,10 +139,10 @@
         "vssd1"
     ],
     "DIE_AREA": [
-        0,
-        0,
-        450,
-        490
+        8,
+        8,
+        461,
+        463
     ],
     "EXTRA_EXCLUDED_CELLS": null,
     "MACROS": null,
@@ -166,7 +166,7 @@
     "RUN_CTS": true,
     "RUN_POST_CTS_RESIZER_TIMING": true,
     "RUN_POST_GRT_RESIZER_TIMING": false,
-    "RUN_HEURISTIC_DIODE_INSERTION": true,
+    "RUN_HEURISTIC_DIODE_INSERTION": false,
     "RUN_ANTENNA_REPAIR": true,
     "RUN_DRT": true,
     "RUN_FILL_INSERTION": true,
@@ -257,7 +257,12 @@
     "FP_CORE_UTIL": 10,
     "FP_OBSTRUCTIONS": null,
     "PL_SOFT_OBSTRUCTIONS": null,
-    "CORE_AREA": null,
+    "CORE_AREA": [
+        24,
+        24,
+        445,
+        447
+    ],
     "BOTTOM_MARGIN_MULT": 4,
     "TOP_MARGIN_MULT": 4,
     "LEFT_MARGIN_MULT": 12,
@@ -278,10 +283,10 @@
     "FP_PDN_HWIDTH": 1.6,
     "FP_PDN_VSPACING": 1.7,
     "FP_PDN_HSPACING": 1.7,
-    "FP_PDN_VPITCH": 180,
-    "FP_PDN_HPITCH": 167,
-    "FP_PDN_VOFFSET": 180,
-    "FP_PDN_HOFFSET": 167,
+    "FP_PDN_VPITCH": 95,
+    "FP_PDN_HPITCH": 95,
+    "FP_PDN_VOFFSET": 70,
+    "FP_PDN_HOFFSET": 70,
     "FP_PDN_CORE_RING_VWIDTH": 1.6,
     "FP_PDN_CORE_RING_HWIDTH": 1.6,
     "FP_PDN_CORE_RING_VSPACING": 1.7,

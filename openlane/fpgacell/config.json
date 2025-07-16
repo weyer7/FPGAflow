@@ -18,6 +18,8 @@
     "PL_TARGET_DENSITY": 0.77,
     "RUN_HEURISTIC_DIODE_INSERTION": true,
     "ROUTING_CORES": 20,
+    "DRT_THREADS": 20,
+    "KLAYOUT_XOR)THREADS": 20,
 
     "//": "Power Delivery Network (PDN) settings",
     "FP_PDN_CORE_RING": 0,

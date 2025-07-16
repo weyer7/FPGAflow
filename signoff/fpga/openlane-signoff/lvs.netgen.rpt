@@ -1,139 +1,4 @@
 
-Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: DIODE
-Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: VGND
-Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: VNB
-Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: VPB
-Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: VPWR
-Cell sky130_fd_sc_hd__diode_2 (1) disconnected node: VGND
-Cell sky130_fd_sc_hd__diode_2 (1) disconnected node: VPB
-Cell sky130_fd_sc_hd__diode_2 (1) disconnected node: VPWR
-
-Subcircuit pins:
-Circuit 1: sky130_fd_sc_hd__diode_2        |Circuit 2: sky130_fd_sc_hd__diode_2        
--------------------------------------------|-------------------------------------------
-DIODE                                      |DIODE                                      
-VGND                                       |VGND                                       
-VNB                                        |VNB                                        
-VPB                                        |VPB                                        
-VPWR                                       |VPWR                                       
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_sc_hd__diode_2 and sky130_fd_sc_hd__diode_2 are equivalent.
-
-Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VPWR
-Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VGND
-Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VPB
-Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VNB
-
-Subcircuit pins:
-Circuit 1: sky130_ef_sc_hd__decap_12       |Circuit 2: sky130_ef_sc_hd__decap_12       
--------------------------------------------|-------------------------------------------
-VPWR                                       |VPWR                                       
-VGND                                       |VGND                                       
-VPB                                        |VPB                                        
-VNB                                        |VNB                                        
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_ef_sc_hd__decap_12 and sky130_ef_sc_hd__decap_12 are equivalent.
-
-Cell sky130_fd_sc_hd__decap_6 (0) disconnected node: VGND
-Cell sky130_fd_sc_hd__decap_6 (0) disconnected node: VNB
-Cell sky130_fd_sc_hd__decap_6 (0) disconnected node: VPB
-Cell sky130_fd_sc_hd__decap_6 (0) disconnected node: VPWR
-
-Subcircuit pins:
-Circuit 1: sky130_fd_sc_hd__decap_6        |Circuit 2: sky130_fd_sc_hd__decap_6        
--------------------------------------------|-------------------------------------------
-VGND                                       |VGND                                       
-VNB                                        |VNB                                        
-VPB                                        |VPB                                        
-VPWR                                       |VPWR                                       
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_sc_hd__decap_6 and sky130_fd_sc_hd__decap_6 are equivalent.
-
-Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VGND
-Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VNB
-Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VPB
-Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VPWR
-
-Subcircuit pins:
-Circuit 1: sky130_fd_sc_hd__decap_3        |Circuit 2: sky130_fd_sc_hd__decap_3        
--------------------------------------------|-------------------------------------------
-VGND                                       |VGND                                       
-VNB                                        |VNB                                        
-VPB                                        |VPB                                        
-VPWR                                       |VPWR                                       
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_sc_hd__decap_3 and sky130_fd_sc_hd__decap_3 are equivalent.
-
-Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VGND
-Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VNB
-Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VPB
-Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VPWR
-
-Subcircuit pins:
-Circuit 1: sky130_fd_sc_hd__decap_8        |Circuit 2: sky130_fd_sc_hd__decap_8        
--------------------------------------------|-------------------------------------------
-VGND                                       |VGND                                       
-VNB                                        |VNB                                        
-VPB                                        |VPB                                        
-VPWR                                       |VPWR                                       
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_sc_hd__decap_8 and sky130_fd_sc_hd__decap_8 are equivalent.
-
-Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (0) disconnected node: VGND
-Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (0) disconnected node: VPWR
-Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (1) disconnected node: VGND
-Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (1) disconnected node: VPWR
-
-Subcircuit pins:
-Circuit 1: sky130_fd_sc_hd__tapvpwrvgnd_1  |Circuit 2: sky130_fd_sc_hd__tapvpwrvgnd_1  
--------------------------------------------|-------------------------------------------
-VGND                                       |VGND                                       
-VPWR                                       |VPWR                                       
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_sc_hd__tapvpwrvgnd_1 and sky130_fd_sc_hd__tapvpwrvgnd_1 are equivalent.
-
-Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VGND
-Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VNB
-Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VPB
-Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VPWR
-
-Subcircuit pins:
-Circuit 1: sky130_fd_sc_hd__decap_4        |Circuit 2: sky130_fd_sc_hd__decap_4        
--------------------------------------------|-------------------------------------------
-VGND                                       |VGND                                       
-VNB                                        |VNB                                        
-VPB                                        |VPB                                        
-VPWR                                       |VPWR                                       
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_sc_hd__decap_4 and sky130_fd_sc_hd__decap_4 are equivalent.
-
-Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: A
-Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VGND
-Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VNB
-Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VPB
-Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VPWR
-Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: X
-
-Subcircuit pins:
-Circuit 1: sky130_fd_sc_hd__buf_2          |Circuit 2: sky130_fd_sc_hd__buf_2          
--------------------------------------------|-------------------------------------------
-A                                          |A                                          
-VGND                                       |VGND                                       
-VNB                                        |VNB                                        
-VPB                                        |VPB                                        
-VPWR                                       |VPWR                                       
-X                                          |X                                          
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_sc_hd__buf_2 and sky130_fd_sc_hd__buf_2 are equivalent.
-
 Cell sky130_fd_sc_hd__fill_1 (0) disconnected node: VGND
 Cell sky130_fd_sc_hd__fill_1 (0) disconnected node: VNB
 Cell sky130_fd_sc_hd__fill_1 (0) disconnected node: VPB
@@ -154,6 +19,52 @@ VPWR                                       |VPWR
 Cell pin lists are equivalent.
 Device classes sky130_fd_sc_hd__fill_1 and sky130_fd_sc_hd__fill_1 are equivalent.
 
+Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VPWR
+Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VGND
+Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VPB
+Cell sky130_ef_sc_hd__decap_12 (0) disconnected node: VNB
+
+Subcircuit pins:
+Circuit 1: sky130_ef_sc_hd__decap_12       |Circuit 2: sky130_ef_sc_hd__decap_12       
+-------------------------------------------|-------------------------------------------
+VPWR                                       |VPWR                                       
+VGND                                       |VGND                                       
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_ef_sc_hd__decap_12 and sky130_ef_sc_hd__decap_12 are equivalent.
+
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__decap_3 (0) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__decap_3        |Circuit 2: sky130_fd_sc_hd__decap_3        
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__decap_3 and sky130_fd_sc_hd__decap_3 are equivalent.
+
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (1) disconnected node: VGND
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 (1) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__tapvpwrvgnd_1  |Circuit 2: sky130_fd_sc_hd__tapvpwrvgnd_1  
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__tapvpwrvgnd_1 and sky130_fd_sc_hd__tapvpwrvgnd_1 are equivalent.
+
 Cell sky130_fd_sc_hd__fill_2 (0) disconnected node: VGND
 Cell sky130_fd_sc_hd__fill_2 (0) disconnected node: VNB
 Cell sky130_fd_sc_hd__fill_2 (0) disconnected node: VPB
@@ -173,6 +84,58 @@ VPWR                                       |VPWR
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_sc_hd__fill_2 and sky130_fd_sc_hd__fill_2 are equivalent.
+
+Cell sky130_fd_sc_hd__decap_6 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__decap_6 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__decap_6 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__decap_6 (0) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__decap_6        |Circuit 2: sky130_fd_sc_hd__decap_6        
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__decap_6 and sky130_fd_sc_hd__decap_6 are equivalent.
+
+Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__decap_8 (0) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__decap_8        |Circuit 2: sky130_fd_sc_hd__decap_8        
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__decap_8 and sky130_fd_sc_hd__decap_8 are equivalent.
+
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: A
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__buf_2 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_2          |Circuit 2: sky130_fd_sc_hd__buf_2          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_2 and sky130_fd_sc_hd__buf_2 are equivalent.
 
 Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: A
 Cell sky130_fd_sc_hd__buf_1 (0) disconnected node: VGND
@@ -214,6 +177,22 @@ X                                          |X
 Cell pin lists are equivalent.
 Device classes sky130_fd_sc_hd__buf_12 and sky130_fd_sc_hd__buf_12 are equivalent.
 
+Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__decap_4 (0) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__decap_4        |Circuit 2: sky130_fd_sc_hd__decap_4        
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__decap_4 and sky130_fd_sc_hd__decap_4 are equivalent.
+
 Cell sky130_fd_sc_hd__clkbuf_8 (0) disconnected node: A
 Cell sky130_fd_sc_hd__clkbuf_8 (0) disconnected node: VGND
 Cell sky130_fd_sc_hd__clkbuf_8 (0) disconnected node: VNB
@@ -253,6 +232,46 @@ X                                          |X
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_sc_hd__clkbuf_16 and sky130_fd_sc_hd__clkbuf_16 are equivalent.
+
+Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: A
+Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_4          |Circuit 2: sky130_fd_sc_hd__buf_4          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_4 and sky130_fd_sc_hd__buf_4 are equivalent.
+
+Cell sky130_fd_sc_hd__clkbuf_1 (0) disconnected node: A
+Cell sky130_fd_sc_hd__clkbuf_1 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__clkbuf_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__clkbuf_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__clkbuf_1 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__clkbuf_1 (0) disconnected node: X
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__clkbuf_1       |Circuit 2: sky130_fd_sc_hd__clkbuf_1       
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__clkbuf_1 and sky130_fd_sc_hd__clkbuf_1 are equivalent.
 
 Cell sky130_fd_sc_hd__clkbuf_4 (0) disconnected node: A
 Cell sky130_fd_sc_hd__clkbuf_4 (0) disconnected node: VGND
@@ -313,26 +332,6 @@ X                                          |X
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_sc_hd__dlymetal6s2s_1 and sky130_fd_sc_hd__dlymetal6s2s_1 are equivalent.
-
-Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: A
-Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: VGND
-Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: VNB
-Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: VPB
-Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: VPWR
-Cell sky130_fd_sc_hd__buf_4 (0) disconnected node: X
-
-Subcircuit pins:
-Circuit 1: sky130_fd_sc_hd__buf_4          |Circuit 2: sky130_fd_sc_hd__buf_4          
--------------------------------------------|-------------------------------------------
-A                                          |A                                          
-VGND                                       |VGND                                       
-VNB                                        |VNB                                        
-VPB                                        |VPB                                        
-VPWR                                       |VPWR                                       
-X                                          |X                                          
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_sc_hd__buf_4 and sky130_fd_sc_hd__buf_4 are equivalent.
 
 Cell fpgacell (0) disconnected node: CBeast_in[0]
 Cell fpgacell (0) disconnected node: CBeast_in[10]
@@ -586,26 +585,6 @@ vssd1                                      |vssd1
 Cell pin lists are equivalent.
 Device classes fpgacell and fpgacell are equivalent.
 
-Cell sky130_fd_sc_hd__clkbuf_1 (0) disconnected node: A
-Cell sky130_fd_sc_hd__clkbuf_1 (0) disconnected node: VGND
-Cell sky130_fd_sc_hd__clkbuf_1 (0) disconnected node: VNB
-Cell sky130_fd_sc_hd__clkbuf_1 (0) disconnected node: VPB
-Cell sky130_fd_sc_hd__clkbuf_1 (0) disconnected node: VPWR
-Cell sky130_fd_sc_hd__clkbuf_1 (0) disconnected node: X
-
-Subcircuit pins:
-Circuit 1: sky130_fd_sc_hd__clkbuf_1       |Circuit 2: sky130_fd_sc_hd__clkbuf_1       
--------------------------------------------|-------------------------------------------
-A                                          |A                                          
-VGND                                       |VGND                                       
-VNB                                        |VNB                                        
-VPB                                        |VPB                                        
-VPWR                                       |VPWR                                       
-X                                          |X                                          
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_sc_hd__clkbuf_1 and sky130_fd_sc_hd__clkbuf_1 are equivalent.
-
 Cell sky130_fd_sc_hd__conb_1 (0) disconnected node: VGND
 Cell sky130_fd_sc_hd__conb_1 (0) disconnected node: VNB
 Cell sky130_fd_sc_hd__conb_1 (0) disconnected node: VPB
@@ -627,6 +606,27 @@ LO                                         |LO
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_sc_hd__conb_1 and sky130_fd_sc_hd__conb_1 are equivalent.
+
+Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: DIODE
+Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__diode_2 (1) disconnected node: VGND
+Cell sky130_fd_sc_hd__diode_2 (1) disconnected node: VPB
+Cell sky130_fd_sc_hd__diode_2 (1) disconnected node: VPWR
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__diode_2        |Circuit 2: sky130_fd_sc_hd__diode_2        
+-------------------------------------------|-------------------------------------------
+DIODE                                      |DIODE                                      
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__diode_2 and sky130_fd_sc_hd__diode_2 are equivalent.
 
 Cell fpga (0) disconnected node: io_east_in[14]
 Cell fpga (0) disconnected node: io_east_in[15]
@@ -660,8 +660,8 @@ Cell fpga (1) disconnected node: io_west_in[31]
 Cell fpga (1) disconnected node: io_west_in[30]
 Cell fpga (1) disconnected node: io_west_in[15]
 Cell fpga (1) disconnected node: io_west_in[14]
-Class fpga (0):  Merged 3140 parallel devices.
-Class fpga (1):  Merged 3140 parallel devices.
+Class fpga (0):  Merged 2888 parallel devices.
+Class fpga (1):  Merged 2888 parallel devices.
 Cell fpga (0) disconnected node: io_east_in[14]
 Cell fpga (0) disconnected node: io_east_in[15]
 Cell fpga (0) disconnected node: io_east_in[30]
@@ -697,28 +697,28 @@ Cell fpga (1) disconnected node: io_west_in[14]
 Subcircuit summary:
 Circuit 1: fpga                            |Circuit 2: fpga                            
 -------------------------------------------|-------------------------------------------
-sky130_fd_sc_hd__diode_2 (237->169)        |sky130_fd_sc_hd__diode_2 (237->169)        
-sky130_ef_sc_hd__decap_12 (1309->1)        |sky130_ef_sc_hd__decap_12 (1309->1)        
-sky130_fd_sc_hd__decap_6 (202->1)          |sky130_fd_sc_hd__decap_6 (202->1)          
-sky130_fd_sc_hd__decap_3 (486->1)          |sky130_fd_sc_hd__decap_3 (486->1)          
-sky130_fd_sc_hd__decap_8 (209->1)          |sky130_fd_sc_hd__decap_8 (209->1)          
-sky130_fd_sc_hd__tapvpwrvgnd_1 (391->1)    |sky130_fd_sc_hd__tapvpwrvgnd_1 (391->1)    
-sky130_fd_sc_hd__decap_4 (27->1)           |sky130_fd_sc_hd__decap_4 (27->1)           
-sky130_fd_sc_hd__buf_2 (127)               |sky130_fd_sc_hd__buf_2 (127)               
-sky130_fd_sc_hd__fill_1 (383->1)           |sky130_fd_sc_hd__fill_1 (383->1)           
-sky130_fd_sc_hd__fill_2 (73->1)            |sky130_fd_sc_hd__fill_2 (73->1)            
-sky130_fd_sc_hd__buf_1 (58)                |sky130_fd_sc_hd__buf_1 (58)                
+sky130_fd_sc_hd__fill_1 (310->1)           |sky130_fd_sc_hd__fill_1 (310->1)           
+sky130_ef_sc_hd__decap_12 (1008->1)        |sky130_ef_sc_hd__decap_12 (1008->1)        
+sky130_fd_sc_hd__decap_3 (783->1)          |sky130_fd_sc_hd__decap_3 (783->1)          
+sky130_fd_sc_hd__tapvpwrvgnd_1 (368->1)    |sky130_fd_sc_hd__tapvpwrvgnd_1 (368->1)    
+sky130_fd_sc_hd__fill_2 (130->1)           |sky130_fd_sc_hd__fill_2 (130->1)           
+sky130_fd_sc_hd__decap_6 (119->1)          |sky130_fd_sc_hd__decap_6 (119->1)          
+sky130_fd_sc_hd__decap_8 (160->1)          |sky130_fd_sc_hd__decap_8 (160->1)          
+sky130_fd_sc_hd__buf_2 (133)               |sky130_fd_sc_hd__buf_2 (133)               
+sky130_fd_sc_hd__buf_1 (56)                |sky130_fd_sc_hd__buf_1 (56)                
 sky130_fd_sc_hd__buf_12 (4)                |sky130_fd_sc_hd__buf_12 (4)                
-sky130_fd_sc_hd__clkbuf_8 (3)              |sky130_fd_sc_hd__clkbuf_8 (3)              
+sky130_fd_sc_hd__decap_4 (18->1)           |sky130_fd_sc_hd__decap_4 (18->1)           
+sky130_fd_sc_hd__clkbuf_8 (2)              |sky130_fd_sc_hd__clkbuf_8 (2)              
 sky130_fd_sc_hd__clkbuf_16 (3)             |sky130_fd_sc_hd__clkbuf_16 (3)             
-sky130_fd_sc_hd__clkbuf_4 (3)              |sky130_fd_sc_hd__clkbuf_4 (3)              
-sky130_fd_sc_hd__clkbuf_2 (26)             |sky130_fd_sc_hd__clkbuf_2 (26)             
-sky130_fd_sc_hd__dlymetal6s2s_1 (4)        |sky130_fd_sc_hd__dlymetal6s2s_1 (4)        
-sky130_fd_sc_hd__buf_4 (2)                 |sky130_fd_sc_hd__buf_4 (2)                 
+sky130_fd_sc_hd__buf_4 (3)                 |sky130_fd_sc_hd__buf_4 (3)                 
+sky130_fd_sc_hd__clkbuf_1 (4)              |sky130_fd_sc_hd__clkbuf_1 (4)              
+sky130_fd_sc_hd__clkbuf_4 (9)              |sky130_fd_sc_hd__clkbuf_4 (9)              
+sky130_fd_sc_hd__clkbuf_2 (14)             |sky130_fd_sc_hd__clkbuf_2 (14)             
+sky130_fd_sc_hd__dlymetal6s2s_1 (8)        |sky130_fd_sc_hd__dlymetal6s2s_1 (8)        
 fpgacell (4)                               |fpgacell (4)                               
-sky130_fd_sc_hd__clkbuf_1 (6)              |sky130_fd_sc_hd__clkbuf_1 (6)              
 sky130_fd_sc_hd__conb_1 (16)               |sky130_fd_sc_hd__conb_1 (16)               
-Number of devices: 433                     |Number of devices: 433                     
+sky130_fd_sc_hd__diode_2 (1)               |sky130_fd_sc_hd__diode_2 (1)               
+Number of devices: 265                     |Number of devices: 265                     
 Number of nets: 617                        |Number of nets: 617                        
 ---------------------------------------------------------------------------------------
 Resolving symmetries by property value.
@@ -728,96 +728,211 @@ Netlists match uniquely.
 Subcircuit pins:
 Circuit 1: fpga                            |Circuit 2: fpga                            
 -------------------------------------------|-------------------------------------------
+clk                                        |clk                                        
+io_east_in[26]                             |io_east_in[26]                             
+io_north_in[18]                            |io_north_in[18]                            
+io_north_in[27]                            |io_north_in[27]                            
+io_north_in[26]                            |io_north_in[26]                            
+io_north_in[11]                            |io_north_in[11]                            
+io_north_in[10]                            |io_north_in[10]                            
+io_north_in[2]                             |io_north_in[2]                             
+io_east_in[10]                             |io_east_in[10]                             
+config_data_in                             |config_data_in                             
+io_east_in[25]                             |io_east_in[25]                             
+io_north_in[19]                            |io_north_in[19]                            
+io_north_in[28]                            |io_north_in[28]                            
+io_north_in[17]                            |io_north_in[17]                            
+io_north_in[16]                            |io_north_in[16]                            
+io_north_in[7]                             |io_north_in[7]                             
+io_north_in[12]                            |io_north_in[12]                            
+io_north_in[6]                             |io_north_in[6]                             
+io_north_in[23]                            |io_north_in[23]                            
+io_north_in[22]                            |io_north_in[22]                            
+io_east_in[28]                             |io_east_in[28]                             
+io_north_in[4]                             |io_north_in[4]                             
+io_east_in[27]                             |io_east_in[27]                             
+io_north_in[0]                             |io_north_in[0]                             
+io_east_in[12]                             |io_east_in[12]                             
+io_east_in[9]                              |io_east_in[9]                              
+io_north_in[3]                             |io_north_in[3]                             
+io_north_in[20]                            |io_north_in[20]                            
+io_east_in[11]                             |io_east_in[11]                             
+io_north_in[1]                             |io_north_in[1]                             
+io_north_in[8]                             |io_north_in[8]                             
+io_north_in[24]                            |io_north_in[24]                            
+io_east_in[8]                              |io_east_in[8]                              
+io_east_in[7]                              |io_east_in[7]                              
+io_east_in[24]                             |io_east_in[24]                             
+io_east_in[23]                             |io_east_in[23]                             
+io_east_in[4]                              |io_east_in[4]                              
+io_east_in[3]                              |io_east_in[3]                              
+io_east_in[20]                             |io_east_in[20]                             
+io_east_in[19]                             |io_east_in[19]                             
+io_north_in[5]                             |io_north_in[5]                             
+io_north_in[21]                            |io_north_in[21]                            
+io_south_in[11]                            |io_south_in[11]                            
+io_south_in[27]                            |io_south_in[27]                            
+io_south_in[10]                            |io_south_in[10]                            
+io_south_in[26]                            |io_south_in[26]                            
+io_north_in[9]                             |io_north_in[9]                             
+io_north_in[25]                            |io_north_in[25]                            
+io_east_in[29]                             |io_east_in[29]                             
+io_east_in[13]                             |io_east_in[13]                             
+io_south_in[13]                            |io_south_in[13]                            
+io_south_in[29]                            |io_south_in[29]                            
+io_south_in[12]                            |io_south_in[12]                            
+io_south_in[28]                            |io_south_in[28]                            
+io_west_in[1]                              |io_west_in[1]                              
+io_west_in[18]                             |io_west_in[18]                             
+io_west_in[17]                             |io_west_in[17]                             
+io_west_in[2]                              |io_west_in[2]                              
+io_east_in[6]                              |io_east_in[6]                              
+io_east_in[5]                              |io_east_in[5]                              
+io_east_in[22]                             |io_east_in[22]                             
+io_east_in[21]                             |io_east_in[21]                             
+io_north_in[13]                            |io_north_in[13]                            
+io_east_in[2]                              |io_east_in[2]                              
+io_east_in[1]                              |io_east_in[1]                              
+io_west_in[11]                             |io_west_in[11]                             
+io_east_in[17]                             |io_east_in[17]                             
+io_west_in[22]                             |io_west_in[22]                             
+io_south_in[18]                            |io_south_in[18]                            
+io_south_in[2]                             |io_south_in[2]                             
+io_west_in[10]                             |io_west_in[10]                             
+io_east_in[16]                             |io_east_in[16]                             
+io_south_in[17]                            |io_south_in[17]                            
+io_south_in[1]                             |io_south_in[1]                             
+io_west_in[0]                              |io_west_in[0]                              
+io_west_in[21]                             |io_west_in[21]                             
+io_east_in[18]                             |io_east_in[18]                             
+io_south_in[0]                             |io_south_in[0]                             
+io_south_in[16]                            |io_south_in[16]                            
+io_west_in[20]                             |io_west_in[20]                             
+io_south_in[25]                            |io_south_in[25]                            
+io_south_in[9]                             |io_south_in[9]                             
+io_south_in[24]                            |io_south_in[24]                            
+io_south_in[8]                             |io_south_in[8]                             
+io_west_in[19]                             |io_west_in[19]                             
+io_south_in[23]                            |io_south_in[23]                            
+io_south_in[7]                             |io_south_in[7]                             
+io_north_in[29]                            |io_north_in[29]                            
+io_east_in[0]                              |io_east_in[0]                              
+io_south_in[22]                            |io_south_in[22]                            
+io_south_in[6]                             |io_south_in[6]                             
+io_south_in[21]                            |io_south_in[21]                            
+io_south_in[5]                             |io_south_in[5]                             
+io_south_in[20]                            |io_south_in[20]                            
+io_south_in[4]                             |io_south_in[4]                             
+io_west_in[16]                             |io_west_in[16]                             
+io_west_in[13]                             |io_west_in[13]                             
+io_south_in[19]                            |io_south_in[19]                            
+io_south_in[3]                             |io_south_in[3]                             
+io_west_in[4]                              |io_west_in[4]                              
+io_west_in[12]                             |io_west_in[12]                             
+io_west_in[3]                              |io_west_in[3]                              
+io_west_in[29]                             |io_west_in[29]                             
+io_west_in[28]                             |io_west_in[28]                             
+io_west_in[27]                             |io_west_in[27]                             
+io_west_in[9]                              |io_west_in[9]                              
+io_west_in[26]                             |io_west_in[26]                             
+io_west_in[8]                              |io_west_in[8]                              
+io_west_in[25]                             |io_west_in[25]                             
+io_west_in[7]                              |io_west_in[7]                              
+io_west_in[24]                             |io_west_in[24]                             
+io_west_in[6]                              |io_west_in[6]                              
+io_west_in[23]                             |io_west_in[23]                             
+io_west_in[5]                              |io_west_in[5]                              
+le_en                                      |le_en                                      
+le_clk                                     |le_clk                                     
+le_nrst                                    |le_nrst                                    
+config_en                                  |config_en                                  
+nrst                                       |nrst                                       
 config_data_out                            |config_data_out                            
+io_west_out[8]                             |io_west_out[8]                             
+io_east_out[1]                             |io_east_out[1]                             
 io_east_out[19]                            |io_east_out[19]                            
 io_east_out[29]                            |io_east_out[29]                            
 io_east_out[18]                            |io_east_out[18]                            
 io_east_out[28]                            |io_east_out[28]                            
+io_north_out[10]                           |io_north_out[10]                           
 io_east_out[17]                            |io_east_out[17]                            
 io_east_out[27]                            |io_east_out[27]                            
-io_east_out[26]                            |io_east_out[26]                            
-io_east_out[16]                            |io_east_out[16]                            
-io_east_out[13]                            |io_east_out[13]                            
-io_east_out[25]                            |io_east_out[25]                            
-io_east_out[12]                            |io_east_out[12]                            
-io_east_out[24]                            |io_east_out[24]                            
-io_east_out[11]                            |io_east_out[11]                            
-io_east_out[23]                            |io_east_out[23]                            
-io_east_out[10]                            |io_east_out[10]                            
-io_east_out[22]                            |io_east_out[22]                            
-io_east_out[21]                            |io_east_out[21]                            
-io_east_out[20]                            |io_east_out[20]                            
-io_west_out[8]                             |io_west_out[8]                             
-io_east_out[1]                             |io_east_out[1]                             
-io_north_out[10]                           |io_north_out[10]                           
 io_north_out[0]                            |io_north_out[0]                            
 io_north_out[21]                           |io_north_out[21]                           
 io_east_out[9]                             |io_east_out[9]                             
+io_east_out[26]                            |io_east_out[26]                            
 io_north_out[3]                            |io_north_out[3]                            
 io_north_out[20]                           |io_north_out[20]                           
-io_south_out[12]                           |io_south_out[12]                           
+io_east_out[16]                            |io_east_out[16]                            
+io_east_out[13]                            |io_east_out[13]                            
 io_east_out[8]                             |io_east_out[8]                             
-io_north_out[1]                            |io_north_out[1]                            
+io_east_out[25]                            |io_east_out[25]                            
 io_north_out[2]                            |io_north_out[2]                            
-io_south_out[23]                           |io_south_out[23]                           
-io_south_out[11]                           |io_south_out[11]                           
+io_north_out[1]                            |io_north_out[1]                            
+io_east_out[12]                            |io_east_out[12]                            
 io_east_out[7]                             |io_east_out[7]                             
+io_east_out[24]                            |io_east_out[24]                            
 io_north_out[19]                           |io_north_out[19]                           
 io_north_out[29]                           |io_north_out[29]                           
-io_south_out[22]                           |io_south_out[22]                           
-io_south_out[5]                            |io_south_out[5]                            
-io_south_out[10]                           |io_south_out[10]                           
+io_east_out[11]                            |io_east_out[11]                            
 io_east_out[6]                             |io_east_out[6]                             
+io_east_out[23]                            |io_east_out[23]                            
 io_north_out[18]                           |io_north_out[18]                           
 io_north_out[28]                           |io_north_out[28]                           
 io_south_out[21]                           |io_south_out[21]                           
-io_south_out[4]                            |io_south_out[4]                            
-io_south_out[0]                            |io_south_out[0]                            
+io_south_out[5]                            |io_south_out[5]                            
 io_north_out[17]                           |io_north_out[17]                           
 io_north_out[27]                           |io_north_out[27]                           
+io_east_out[10]                            |io_east_out[10]                            
 io_east_out[5]                             |io_east_out[5]                             
-io_south_out[20]                           |io_south_out[20]                           
-io_south_out[3]                            |io_south_out[3]                            
+io_east_out[22]                            |io_east_out[22]                            
 io_east_out[4]                             |io_east_out[4]                             
 io_east_out[0]                             |io_east_out[0]                             
+io_south_out[20]                           |io_south_out[20]                           
+io_south_out[4]                            |io_south_out[4]                            
+io_east_out[21]                            |io_east_out[21]                            
 io_north_out[9]                            |io_north_out[9]                            
 io_north_out[16]                           |io_north_out[16]                           
 io_north_out[26]                           |io_north_out[26]                           
-io_south_out[2]                            |io_south_out[2]                            
-io_south_out[1]                            |io_south_out[1]                            
 io_east_out[3]                             |io_east_out[3]                             
+io_east_out[20]                            |io_east_out[20]                            
 io_north_out[8]                            |io_north_out[8]                            
 io_north_out[13]                           |io_north_out[13]                           
 io_north_out[25]                           |io_north_out[25]                           
-io_south_out[29]                           |io_south_out[29]                           
-io_south_out[19]                           |io_south_out[19]                           
 io_east_out[2]                             |io_east_out[2]                             
+io_south_out[19]                           |io_south_out[19]                           
+io_south_out[3]                            |io_south_out[3]                            
 io_north_out[7]                            |io_north_out[7]                            
 io_north_out[12]                           |io_north_out[12]                           
 io_north_out[24]                           |io_north_out[24]                           
+io_south_out[12]                           |io_south_out[12]                           
 io_south_out[28]                           |io_south_out[28]                           
 io_south_out[18]                           |io_south_out[18]                           
+io_south_out[2]                            |io_south_out[2]                            
 io_north_out[6]                            |io_north_out[6]                            
 io_north_out[11]                           |io_north_out[11]                           
 io_north_out[23]                           |io_north_out[23]                           
+io_south_out[11]                           |io_south_out[11]                           
 io_south_out[27]                           |io_south_out[27]                           
 io_south_out[17]                           |io_south_out[17]                           
+io_south_out[1]                            |io_south_out[1]                            
 io_north_out[5]                            |io_north_out[5]                            
 io_north_out[22]                           |io_north_out[22]                           
+io_south_out[10]                           |io_south_out[10]                           
 io_south_out[26]                           |io_south_out[26]                           
+io_south_out[0]                            |io_south_out[0]                            
 io_south_out[16]                           |io_south_out[16]                           
 io_north_out[4]                            |io_north_out[4]                            
-io_south_out[25]                           |io_south_out[25]                           
 io_south_out[13]                           |io_south_out[13]                           
-io_south_out[24]                           |io_south_out[24]                           
+io_south_out[29]                           |io_south_out[29]                           
 io_west_out[16]                            |io_west_out[16]                            
 io_west_out[13]                            |io_west_out[13]                            
 io_west_out[25]                            |io_west_out[25]                            
-io_west_out[7]                             |io_west_out[7]                             
 io_west_out[12]                            |io_west_out[12]                            
+io_west_out[7]                             |io_west_out[7]                             
 io_west_out[24]                            |io_west_out[24]                            
-io_west_out[6]                             |io_west_out[6]                             
 io_west_out[11]                            |io_west_out[11]                            
+io_west_out[6]                             |io_west_out[6]                             
 io_west_out[23]                            |io_west_out[23]                            
 io_west_out[5]                             |io_west_out[5]                             
 io_west_out[10]                            |io_west_out[10]                            
@@ -826,16 +941,20 @@ io_west_out[4]                             |io_west_out[4]
 io_west_out[0]                             |io_west_out[0]                             
 io_west_out[21]                            |io_west_out[21]                            
 io_west_out[3]                             |io_west_out[3]                             
+io_south_out[25]                           |io_south_out[25]                           
 io_south_out[9]                            |io_south_out[9]                            
 io_west_out[20]                            |io_west_out[20]                            
-io_west_out[2]                             |io_west_out[2]                             
 io_west_out[1]                             |io_west_out[1]                             
+io_west_out[2]                             |io_west_out[2]                             
+io_south_out[24]                           |io_south_out[24]                           
 io_south_out[8]                            |io_south_out[8]                            
+io_south_out[23]                           |io_south_out[23]                           
 io_south_out[7]                            |io_south_out[7]                            
 io_west_out[19]                            |io_west_out[19]                            
 io_west_out[29]                            |io_west_out[29]                            
 io_west_out[18]                            |io_west_out[18]                            
 io_west_out[28]                            |io_west_out[28]                            
+io_south_out[22]                           |io_south_out[22]                           
 io_south_out[6]                            |io_south_out[6]                            
 io_west_out[17]                            |io_west_out[17]                            
 io_west_out[27]                            |io_west_out[27]                            
@@ -846,136 +965,17 @@ io_west_out[31]                            |io_west_out[31]
 io_north_out[14]                           |io_north_out[14]                           
 io_east_out[31]                            |io_east_out[31]                            
 io_west_out[30]                            |io_west_out[30]                            
-io_west_out[15]                            |io_west_out[15]                            
 io_east_out[30]                            |io_east_out[30]                            
-io_west_out[14]                            |io_west_out[14]                            
+io_west_out[15]                            |io_west_out[15]                            
 io_east_out[15]                            |io_east_out[15]                            
-io_south_out[31]                           |io_south_out[31]                           
+io_west_out[14]                            |io_west_out[14]                            
 io_east_out[14]                            |io_east_out[14]                            
+io_south_out[31]                           |io_south_out[31]                           
 io_south_out[30]                           |io_south_out[30]                           
 io_south_out[15]                           |io_south_out[15]                           
 io_south_out[14]                           |io_south_out[14]                           
 io_north_out[31]                           |io_north_out[31]                           
 io_north_out[30]                           |io_north_out[30]                           
-clk                                        |clk                                        
-io_east_in[12]                             |io_east_in[12]                             
-io_east_in[18]                             |io_east_in[18]                             
-io_east_in[2]                              |io_east_in[2]                              
-io_east_in[8]                              |io_east_in[8]                              
-io_east_in[6]                              |io_east_in[6]                              
-io_east_in[4]                              |io_east_in[4]                              
-io_east_in[17]                             |io_east_in[17]                             
-io_east_in[19]                             |io_east_in[19]                             
-io_east_in[3]                              |io_east_in[3]                              
-io_east_in[5]                              |io_east_in[5]                              
-io_east_in[0]                              |io_east_in[0]                              
-io_east_in[1]                              |io_east_in[1]                              
-io_east_in[16]                             |io_east_in[16]                             
-io_east_in[13]                             |io_east_in[13]                             
-io_east_in[11]                             |io_east_in[11]                             
-io_east_in[7]                              |io_east_in[7]                              
-io_east_in[10]                             |io_east_in[10]                             
-io_east_in[9]                              |io_east_in[9]                              
-io_north_in[16]                            |io_north_in[16]                            
-io_north_in[0]                             |io_north_in[0]                             
-config_data_in                             |config_data_in                             
-io_north_in[20]                            |io_north_in[20]                            
-io_north_in[4]                             |io_north_in[4]                             
-io_north_in[18]                            |io_north_in[18]                            
-io_north_in[5]                             |io_north_in[5]                             
-io_north_in[22]                            |io_north_in[22]                            
-io_north_in[3]                             |io_north_in[3]                             
-io_north_in[1]                             |io_north_in[1]                             
-io_north_in[9]                             |io_north_in[9]                             
-io_north_in[21]                            |io_north_in[21]                            
-io_north_in[17]                            |io_north_in[17]                            
-io_north_in[2]                             |io_north_in[2]                             
-io_east_in[28]                             |io_east_in[28]                             
-io_north_in[19]                            |io_north_in[19]                            
-io_north_in[25]                            |io_north_in[25]                            
-io_north_in[6]                             |io_north_in[6]                             
-io_south_in[0]                             |io_south_in[0]                             
-io_south_in[1]                             |io_south_in[1]                             
-io_south_in[16]                            |io_south_in[16]                            
-io_south_in[17]                            |io_south_in[17]                            
-io_north_in[8]                             |io_north_in[8]                             
-io_north_in[24]                            |io_north_in[24]                            
-io_south_in[7]                             |io_south_in[7]                             
-io_south_in[23]                            |io_south_in[23]                            
-io_north_in[26]                            |io_north_in[26]                            
-io_south_in[28]                            |io_south_in[28]                            
-io_east_in[29]                             |io_east_in[29]                             
-io_north_in[10]                            |io_north_in[10]                            
-io_south_in[26]                            |io_south_in[26]                            
-io_east_in[27]                             |io_east_in[27]                             
-io_south_in[9]                             |io_south_in[9]                             
-io_east_in[26]                             |io_east_in[26]                             
-io_north_in[7]                             |io_north_in[7]                             
-io_south_in[24]                            |io_south_in[24]                            
-io_south_in[12]                            |io_south_in[12]                            
-io_north_in[11]                            |io_north_in[11]                            
-io_south_in[11]                            |io_south_in[11]                            
-io_south_in[25]                            |io_south_in[25]                            
-io_north_in[23]                            |io_north_in[23]                            
-io_south_in[27]                            |io_south_in[27]                            
-io_east_in[23]                             |io_east_in[23]                             
-io_south_in[10]                            |io_south_in[10]                            
-io_north_in[27]                            |io_north_in[27]                            
-io_south_in[8]                             |io_south_in[8]                             
-io_east_in[25]                             |io_east_in[25]                             
-io_east_in[22]                             |io_east_in[22]                             
-io_east_in[20]                             |io_east_in[20]                             
-io_west_in[11]                             |io_west_in[11]                             
-io_north_in[12]                            |io_north_in[12]                            
-io_east_in[24]                             |io_east_in[24]                             
-io_south_in[18]                            |io_south_in[18]                            
-io_west_in[0]                              |io_west_in[0]                              
-io_west_in[21]                             |io_west_in[21]                             
-io_south_in[2]                             |io_south_in[2]                             
-io_north_in[28]                            |io_north_in[28]                            
-io_west_in[1]                              |io_west_in[1]                              
-io_south_in[13]                            |io_south_in[13]                            
-io_west_in[18]                             |io_west_in[18]                             
-io_north_in[29]                            |io_north_in[29]                            
-io_west_in[10]                             |io_west_in[10]                             
-io_south_in[22]                            |io_south_in[22]                            
-io_south_in[5]                             |io_south_in[5]                             
-io_west_in[17]                             |io_west_in[17]                             
-io_west_in[19]                             |io_west_in[19]                             
-io_south_in[21]                            |io_south_in[21]                            
-io_west_in[13]                             |io_west_in[13]                             
-io_south_in[3]                             |io_south_in[3]                             
-io_north_in[13]                            |io_north_in[13]                            
-io_west_in[3]                              |io_west_in[3]                              
-io_west_in[20]                             |io_west_in[20]                             
-io_west_in[2]                              |io_west_in[2]                              
-io_south_in[19]                            |io_south_in[19]                            
-io_west_in[29]                             |io_west_in[29]                             
-io_west_in[4]                              |io_west_in[4]                              
-io_west_in[28]                             |io_west_in[28]                             
-io_south_in[4]                             |io_south_in[4]                             
-io_east_in[21]                             |io_east_in[21]                             
-io_west_in[22]                             |io_west_in[22]                             
-io_west_in[27]                             |io_west_in[27]                             
-io_south_in[20]                            |io_south_in[20]                            
-io_west_in[9]                              |io_west_in[9]                              
-io_west_in[26]                             |io_west_in[26]                             
-io_west_in[8]                              |io_west_in[8]                              
-io_south_in[6]                             |io_south_in[6]                             
-io_west_in[7]                              |io_west_in[7]                              
-io_west_in[24]                             |io_west_in[24]                             
-io_west_in[12]                             |io_west_in[12]                             
-io_west_in[6]                              |io_west_in[6]                              
-io_west_in[23]                             |io_west_in[23]                             
-io_south_in[29]                            |io_south_in[29]                            
-io_west_in[5]                              |io_west_in[5]                              
-io_west_in[25]                             |io_west_in[25]                             
-io_west_in[16]                             |io_west_in[16]                             
-le_nrst                                    |le_nrst                                    
-le_en                                      |le_en                                      
-le_clk                                     |le_clk                                     
-config_en                                  |config_en                                  
-nrst                                       |nrst                                       
 vssd1                                      |vssd1                                      
 vccd1                                      |vccd1                                      
 io_east_in[14]                             |io_east_in[14]                             
