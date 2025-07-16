@@ -10,7 +10,7 @@ module fpga #(
 `endif
 
   //CRAM signals
-  input logic clk, en, nrst, config_en,
+  input logic clk, nrst, config_en,
   input logic config_data_in,
   output logic config_data_out,
 
@@ -54,7 +54,7 @@ module fpga #(
         .vssd1(vssd1),
     `endif
     //CRAM signals
-    .clk(clk), .en(en), .nrst(nrst), .config_en(config_en),
+    .clk(clk), .nrst(nrst), .config_en(config_en),
     .config_data_in(config_data_in), .config_data_out(cell0_cram_out),
     //configurable logic signals
     .le_clk(le_clk), .le_en(le_en), .le_nrst(le_nrst),
@@ -74,7 +74,7 @@ module fpga #(
         .vssd1(vssd1),
     `endif
     //CRAM signals
-    .clk(clk), .en(en), .nrst(nrst), .config_en(config_en),
+    .clk(clk), .nrst(nrst), .config_en(config_en),
     .config_data_in(cell0_cram_out), .config_data_out(cell1_cram_out),
     //configurable logic signals
     .le_clk(le_clk), .le_en(le_en), .le_nrst(le_nrst),
@@ -94,7 +94,7 @@ module fpga #(
         .vssd1(vssd1),
     `endif
     //CRAM signals
-    .clk(clk), .en(en), .nrst(nrst), .config_en(config_en),
+    .clk(clk), .nrst(nrst), .config_en(config_en),
     .config_data_in(cell1_cram_out), .config_data_out(cell2_cram_out),
     //configurable logic signals
     .le_clk(le_clk), .le_en(le_en), .le_nrst(le_nrst),
@@ -114,7 +114,7 @@ module fpga #(
         .vssd1(vssd1),
     `endif
     //CRAM signals
-    .clk(clk), .en(en), .nrst(nrst), .config_en(config_en),
+    .clk(clk), .nrst(nrst), .config_en(config_en),
     .config_data_in(cell2_cram_out), .config_data_out(config_data_out),
     //configurable logic signals
     .le_clk(le_clk), .le_en(le_en), .le_nrst(le_nrst),

@@ -3,19 +3,14 @@ module fpga #(
   parameter
     BUS_WIDTH = 16
 )(
-  //power
-// `ifdef USE_POWER_PINS
-//   inout vccd1,
-//   inout vssd1,
-// `endif
-
   //CRAM signals
-  input logic clk, en, nrst, config_en,
+  input logic clk, nrst, config_en,
   input logic config_data_in,
   output logic config_data_out,
 
   //configurable logic signals
-  input logic le_clk, le_en, le_nrst,
+  input logic /*le_clk,*/ 
+  le_en, le_nrst,
   //NORTH
   input logic [BUS_WIDTH * 2 - 1:0] io_north_in,
   output logic [BUS_WIDTH * 2 - 1:0] io_north_out,
@@ -46,18 +41,13 @@ module fpga #(
   assign io_east_out = {east1_out, east0_out};
   assign io_west_out = {west1_out, west0_out};
 
-  fpgacell cell0 
+  fpgacell #(.BUS_WIDTH(BUS_WIDTH)) cell0 
   (
-    //power pins
-    // `ifdef USE_POWER_PINS
-    //     .vccd1(vccd1),
-    //     .vssd1(vssd1),
-    // `endif
     //CRAM signals
-    .clk(clk), .en(en), .nrst(nrst), .config_en(config_en),
+    .clk(clk), .nrst(nrst), .config_en(config_en),
     .config_data_in(config_data_in), .config_data_out(cell0_cram_out),
     //configurable logic signals
-    .le_clk(le_clk), .le_en(le_en), .le_nrst(le_nrst),
+    .le_clk(clk), .le_en(le_en), .le_nrst(le_nrst),
 
     //NORTH
     .CBnorth_in(bus2_0), .CBnorth_out(bus0_2),
@@ -66,18 +56,13 @@ module fpga #(
     .SBwest_in(io_west_in[BUS_WIDTH - 1:0]), .SBwest_out(west0_out) //top level IO
   );
 
-  fpgacell cell1
+  fpgacell #(.BUS_WIDTH(BUS_WIDTH)) cell1
   (
-    //power pins
-    // `ifdef USE_POWER_PINS
-    //     .vccd1(vccd1),
-    //     .vssd1(vssd1),
-    // `endif
     //CRAM signals
-    .clk(clk), .en(en), .nrst(nrst), .config_en(config_en),
+    .clk(clk), .nrst(nrst), .config_en(config_en),
     .config_data_in(cell0_cram_out), .config_data_out(cell1_cram_out),
     //configurable logic signals
-    .le_clk(le_clk), .le_en(le_en), .le_nrst(le_nrst),
+    .le_clk(clk), .le_en(le_en), .le_nrst(le_nrst),
 
     //NORTH
     .CBnorth_in(bus3_1), .CBnorth_out(bus1_3),
@@ -86,18 +71,13 @@ module fpga #(
     .SBwest_in(bus0_1), .SBwest_out(bus1_0)
   );
 
-  fpgacell cell2
+  fpgacell #(.BUS_WIDTH(BUS_WIDTH)) cell2
   (
-    //power pins
-    // `ifdef USE_POWER_PINS
-    //     .vccd1(vccd1),
-    //     .vssd1(vssd1),
-    // `endif
     //CRAM signals
-    .clk(clk), .en(en), .nrst(nrst), .config_en(config_en),
+    .clk(clk), .nrst(nrst), .config_en(config_en),
     .config_data_in(cell1_cram_out), .config_data_out(cell2_cram_out),
     //configurable logic signals
-    .le_clk(le_clk), .le_en(le_en), .le_nrst(le_nrst),
+    .le_clk(clk), .le_en(le_en), .le_nrst(le_nrst),
 
     //NORTH
     .CBnorth_in(io_north_in[BUS_WIDTH - 1:0]), .CBnorth_out(north0_out), //top level IO
@@ -106,18 +86,13 @@ module fpga #(
     .SBwest_in(io_west_in[BUS_WIDTH * 2 - 1:BUS_WIDTH]), .SBwest_out(west1_out) //top level IO
   );
 
-  fpgacell cell3
+  fpgacell #(.BUS_WIDTH(BUS_WIDTH)) cell3
   (
-    //power pins
-    // `ifdef USE_POWER_PINS
-    //     .vccd1(vccd1),
-    //     .vssd1(vssd1),
-    // `endif
     //CRAM signals
-    .clk(clk), .en(en), .nrst(nrst), .config_en(config_en),
+    .clk(clk), .nrst(nrst), .config_en(config_en),
     .config_data_in(cell2_cram_out), .config_data_out(config_data_out),
     //configurable logic signals
-    .le_clk(le_clk), .le_en(le_en), .le_nrst(le_nrst),
+    .le_clk(clk), .le_en(le_en), .le_nrst(le_nrst),
 
     //NORTH
     .CBnorth_in(io_north_in[BUS_WIDTH * 2 - 1:BUS_WIDTH]), .CBnorth_out(north1_out), //top level IO

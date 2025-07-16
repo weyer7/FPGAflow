@@ -129,7 +129,7 @@
     "PDK_ROOT": "/home/ajweyer/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af",
     "DESIGN_NAME": "fpgacell",
     "PDK": "sky130A",
-    "CLOCK_PERIOD": 25,
+    "CLOCK_PERIOD": 100,
     "CLOCK_PORT": "clk",
     "CLOCK_NET": null,
     "VDD_NETS": [
@@ -141,8 +141,8 @@
     "DIE_AREA": [
         0,
         0,
-        210,
-        205
+        185,
+        185
     ],
     "EXTRA_EXCLUDED_CELLS": null,
     "MACROS": null,
@@ -244,7 +244,12 @@
     "FP_CORE_UTIL": 10,
     "FP_OBSTRUCTIONS": null,
     "PL_SOFT_OBSTRUCTIONS": null,
-    "CORE_AREA": null,
+    "CORE_AREA": [
+        3,
+        3,
+        182,
+        182
+    ],
     "BOTTOM_MARGIN_MULT": 4,
     "TOP_MARGIN_MULT": 4,
     "LEFT_MARGIN_MULT": 12,
@@ -265,10 +270,10 @@
     "FP_PDN_HWIDTH": 1.6,
     "FP_PDN_VSPACING": 1.7,
     "FP_PDN_HSPACING": 1.7,
-    "FP_PDN_VPITCH": 153.6,
-    "FP_PDN_HPITCH": 153.18,
-    "FP_PDN_VOFFSET": 16.32,
-    "FP_PDN_HOFFSET": 16.65,
+    "FP_PDN_VPITCH": 170,
+    "FP_PDN_HPITCH": 170,
+    "FP_PDN_VOFFSET": 0,
+    "FP_PDN_HOFFSET": 0,
     "FP_PDN_CORE_RING_VWIDTH": 1.6,
     "FP_PDN_CORE_RING_HWIDTH": 1.6,
     "FP_PDN_CORE_RING_VSPACING": 1.7,
@@ -293,7 +298,7 @@
         0,
         0
     ],
-    "PL_TARGET_DENSITY_PCT": 74,
+    "PL_TARGET_DENSITY_PCT": 77,
     "PL_SKIP_INITIAL_PLACEMENT": false,
     "PL_WIRE_LENGTH_COEF": 0.25,
     "PL_MIN_PHI_COEFFICIENT": null,

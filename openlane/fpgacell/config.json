@@ -8,31 +8,44 @@
         "dir::../../verilog/rtl/fpgacell/SB.sv",
         "dir::../../verilog/rtl/fpgacell/LEI.sv"
     ],
+
+    "//": "common settings",
     "TOP_MODULE": "fpgacell",
     "CLOCK_PERIOD": 25,
     "CLOCK_PORT": "clk",
+    "//": "FP_CORE_UTIL not used with FP_SIZING absolute",
     "FP_CORE_UTIL": 10,
-    "PL_TARGET_DENSITY": 0.74,
+    "PL_TARGET_DENSITY": 0.77,
     "RUN_HEURISTIC_DIODE_INSERTION": true,
     "ROUTING_CORES": 20,
 
+    "//": "Power Delivery Network (PDN) settings",
     "FP_PDN_CORE_RING": 0,
     "VDD_NETS": "vccd1",
     "GND_NETS": "vssd1",
 
+    "FP_PDN_ENABLE_RAILS": true,
+    "FP_PDN_VOFFSET": 0,
+    "FP_PDN_HOFFSET": "expr::$FP_PDN_VOFFSET",
+    "FP_PDN_HPITCH": 170,
+    "FP_PDN_VPITCH": "expr::$FP_PDN_HPITCH",
+
     "//": "for custom IO placement",
     "FP_PIN_ORDER_CFG": "dir::fpgacell_pin_placement.cfg",
 
+    "//": "physical layout settings",
     "RT_MAX_LAYER": "met4",
     "FP_SIZING": "absolute",
     "SYNTH_STRATEGY": "AREA 0",
-    "DIE_AREA": "0 0 210 205",
+    "DIE_AREA": "0 0 185 185",
+    "CORE_AREA": "3 3 182 182",
 
     "RUN_LINTER": false,
 
+    "//": "PDK settings",
     "pdk::sky130*": {
         "scl::sky130_fd_sc_hd": {
-            "CLOCK_PERIOD": 25
+            "CLOCK_PERIOD": 100
         },
         "scl::sky130_fd_sc_hdll": {
             "CLOCK_PERIOD": 10
