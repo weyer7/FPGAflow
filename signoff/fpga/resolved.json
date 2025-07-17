@@ -129,7 +129,7 @@
     "PDK_ROOT": "/home/ajweyer/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af",
     "DESIGN_NAME": "fpga",
     "PDK": "sky130A",
-    "CLOCK_PERIOD": 10000,
+    "CLOCK_PERIOD": 1000,
     "CLOCK_PORT": "clk",
     "CLOCK_NET": null,
     "VDD_NETS": [
@@ -139,26 +139,81 @@
         "vssd1"
     ],
     "DIE_AREA": [
-        8,
-        8,
+        15,
+        15,
         450,
         444
     ],
     "EXTRA_EXCLUDED_CELLS": null,
-    "MACROS": null,
-    "EXTRA_LEFS": [
-        "/home/ajweyer/socet_openlane_flow/lef/fpgacell.lef"
-    ],
-    "EXTRA_VERILOG_MODELS": [
-        "/home/ajweyer/socet_openlane_flow/verilog/gl/fpgacell.v"
-    ],
+    "MACROS": {
+        "fpgacell": {
+            "gds": [
+                "/home/ajweyer/socet_openlane_flow/gds/fpgacell.gds"
+            ],
+            "lef": [
+                "/home/ajweyer/socet_openlane_flow/lef/fpgacell.lef"
+            ],
+            "instances": {
+                "cell0": {
+                    "location": [
+                        50,
+                        50
+                    ],
+                    "orientation": "N"
+                },
+                "cell1": {
+                    "location": [
+                        237,
+                        50
+                    ],
+                    "orientation": "N"
+                },
+                "cell2": {
+                    "location": [
+                        50,
+                        232
+                    ],
+                    "orientation": "N"
+                },
+                "cell3": {
+                    "location": [
+                        237,
+                        232
+                    ],
+                    "orientation": "N"
+                }
+            },
+            "vh": [],
+            "nl": [
+                "/home/ajweyer/socet_openlane_flow/verilog/gl/fpgacell.v"
+            ],
+            "pnl": [],
+            "spef": {
+                "min_*": [
+                    "/home/ajweyer/socet_openlane_flow/spef/multicorner/fpgacell.min.spef"
+                ],
+                "nom_*": [
+                    "/home/ajweyer/socet_openlane_flow/spef/multicorner/fpgacell.nom.spef"
+                ],
+                "max_*": [
+                    "/home/ajweyer/socet_openlane_flow/spef/multicorner/fpgacell.max.spef"
+                ]
+            },
+            "lib": {
+                "*": [
+                    "/home/ajweyer/socet_openlane_flow/lib/fpgacell.lib"
+                ]
+            },
+            "spice": [],
+            "sdf": {},
+            "json_h": null
+        }
+    },
+    "EXTRA_LEFS": null,
+    "EXTRA_VERILOG_MODELS": null,
     "EXTRA_SPICE_MODELS": null,
-    "EXTRA_LIBS": [
-        "/home/ajweyer/socet_openlane_flow/lib/fpgacell.lib"
-    ],
-    "EXTRA_GDS_FILES": [
-        "/home/ajweyer/socet_openlane_flow/gds/fpgacell.gds"
-    ],
+    "EXTRA_LIBS": null,
+    "EXTRA_GDS_FILES": null,
     "FALLBACK_SDC_FILE": "/nix/store/wz1vwpxbzr6jfvda1szjdivignjy05a1-python3-3.11.9-env/lib/python3.11/site-packages/librelane/scripts/base.sdc",
     "RUN_TAP_ENDCAP_INSERTION": true,
     "RUN_POST_GPL_DESIGN_REPAIR": true,
@@ -245,12 +300,7 @@
     "FP_DEF_TEMPLATE": null,
     "STA_MACRO_PRIORITIZE_NL": true,
     "STA_MAX_VIOLATOR_COUNT": null,
-    "EXTRA_SPEFS": [
-        "fpgacell",
-        "/home/ajweyer/socet_openlane_flow/spef/multicorner/fpgacell.min.spef",
-        "/home/ajweyer/socet_openlane_flow/spef/multicorner/fpgacell.nom.spef",
-        "/home/ajweyer/socet_openlane_flow/spef/multicorner/fpgacell.max.spef"
-    ],
+    "EXTRA_SPEFS": null,
     "STA_THREADS": null,
     "FP_SIZING": "absolute",
     "FP_ASPECT_RATIO": 1,
@@ -268,7 +318,7 @@
     "LEFT_MARGIN_MULT": 12,
     "RIGHT_MARGIN_MULT": 12,
     "EXTRA_SITES": null,
-    "MACRO_PLACEMENT_CFG": "/home/ajweyer/socet_openlane_flow/openlane/fpga/macro.cfg",
+    "MACRO_PLACEMENT_CFG": null,
     "FP_MACRO_HORIZONTAL_HALO": 10,
     "FP_MACRO_VERTICAL_HALO": 10,
     "PDN_OBSTRUCTIONS": null,

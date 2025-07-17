@@ -22,7 +22,7 @@ list_designs:
 
 # OpenLane command
 openlane_cmd = \
-	"openlane \
+	"librelane \
 	--run-tag $(OPENLANE_RUN_TAG) \
 	$(PROJECT_ROOT)/openlane/$*/config.json"
 

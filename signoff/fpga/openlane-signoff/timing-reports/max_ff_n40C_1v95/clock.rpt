@@ -3,14 +3,14 @@ Sources: clk
 Generated: no
 Virtual: yes
 Propagated: no
-Period: 10000.000000
+Period: 1000.000000
 
 ===========================================================================
 report_clock_properties
 ============================================================================
 Clock                   Period          Waveform
 ----------------------------------------------------
-clk                 10000.000000    0.0000005000.000000
+clk                 1000.000000    0.000000500.000000
 
 ===========================================================================
 report_clock_latency
@@ -19,24 +19,33 @@ Clock clk
 rise -> rise
     min     max
 0.000000 0.000000 source latency
-0.322344         network latency cell0/clk
-        0.322038 network latency cell3/clk
+0.698623         network latency cell2/_2858_/CLK
+        200.657776 network latency cell2/_2810_/CLK
 ---------------
-0.322344 0.322038 latency
-        -0.000307 skew
+0.698623 200.657776 latency
+        199.959152 skew
+
+rise -> fall
+    min     max
+0.000000 0.000000 source latency
+1.045957         network latency cell2/_2788_/CLK
+        200.619125 network latency cell2/_2810_/CLK
+---------------
+1.045957 200.619125 latency
+        199.573166 skew
 
 fall -> fall
     min     max
 0.000000 0.000000 source latency
-0.287400         network latency cell0/clk
-        0.282853 network latency cell3/clk
+0.668251         network latency cell2/_2858_/CLK
+        0.720434 network latency cell1/_2791_/CLK
 ---------------
-0.287400 0.282853 latency
-        -0.004547 skew
+0.668251 0.720434 latency
+        0.052182 skew
 
 
 
 ===========================================================================
 report_clock_min_period
 ============================================================================
-clk period_min = 1.95 fmax = 512.59
+clk period_min = 2.06 fmax = 486.59
