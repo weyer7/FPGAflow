@@ -6,9 +6,9 @@
     "DRT_THREADS": 20,
     "ROUTING_CORES": "expr::$DRT_THREADS",
     "KLAYOUT_XOR)THREADS": "expr::$DRT_THREADS",
-    "CLOCK_PERIOD": 10000,
+    "CLOCK_PERIOD": 1000,
     "CLOCK_PORT": "clk",
-    "ERROR_ON_KLAYOUT_DRC": false,
+    "ERROR_ON_KLAYOUT_DRC": true,
     
     "MACRO_PLACEMENT_CFG": "dir::macro.cfg",
     "MAGIC_DEF_LABELS": 0,
@@ -36,11 +36,11 @@
     ],
 
     "PL_TARGET_DENSITY": 0.79,
-    "RUN_HEURISTIC_DIODE_INSERTION": false,
+    "RUN_HEURISTIC_DIODE_INSERTION": true,
     "RUN_LINTER": false,
     "FP_SIZING": "absolute",
-    "DIE_AREA": "8 8 461 463",
-    "CORE_AREA": "24 24 445 447",
+    "DIE_AREA": "8 8 450 444",
+    "CORE_AREA": "24 24 443 438",
     "VDD_NETS": "vccd1",
     "GND_NETS": "vssd1",
 
@@ -48,13 +48,13 @@
     "FP_PDN_CORE_RING": 1,
     "FP_PDN_ENABLE_RAILS": true,
 
-    "FP_PDN_HOFFSET": 70,
-    "FP_PDN_VOFFSET": 70,
-    "FP_PDN_HPITCH": 95,
-    "FP_PDN_VPITCH": 95,
+    "FP_PDN_HOFFSET": 65,
+    "FP_PDN_VOFFSET": 65,
+    "FP_PDN_HPITCH": 92,
+    "FP_PDN_VPITCH": 92,
 
-    "FP_PDN_HORIZONTAL_HALO": 10,
-    "FP_PDN_VERTICAL_HALO": 10,
+    "FP_PDN_HORIZONTAL_HALO": 0,
+    "FP_PDN_VERTICAL_HALO": 0,
 
     "//": "set to false only when debugging",
     "PDN_CHECK_NODES": true,
